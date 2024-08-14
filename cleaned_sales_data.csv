@@ -1,0 +1,733 @@
+Date,Customer ID,Customer Name,City,Product Category,Quantity,Unit Cost,Unit Price,Total Revenue,New Customer,Delivery Days,Payment Method,Order Frequency,First Purchase Date,Last Purchase Date,Customer Relationship Duration
+2023-11-24,CID0001,Customer 1,San Antonio,Packaged Foods,8,68.28,85.35,682.8,Yes,3,Credit Card,Quarterly,2023-01-28,2023-04-20,82
+2023-01-13,CID0003,Customer 3,Phoenix,Dairy,19,30.4,38.0,722.0,Yes,1,Online Payment,Monthly,2023-05-01,2023-12-01,214
+2024-01-15,CID0004,Customer 4,San Antonio,Fruits,3,37.15,46.44,139.32,No,3,Online Payment,Weekly,2023-12-24,2024-09-01,252
+2023-05-21,CID0005,Customer 5,Chicago,Bakery,8,38.68,48.35,386.8,Yes,1,Online Payment,Weekly,2023-02-02,2023-02-20,18
+2023-06-05,CID0006,Customer 6,Phoenix,Bakery,2,35.04,43.8,87.6,Yes,2,Debit Card,Monthly,2023-03-23,2023-04-19,27
+2023-04-25,CID0007,Customer 7,Phoenix,Meat,8,75.02,93.77,750.16,Yes,2,Debit Card,Monthly,2023-04-22,2023-04-22,0
+2023-03-13,CID0008,Customer 8,San Antonio,Vegetables,13,56.6,70.75,919.75,Yes,2,Credit Card,Monthly,2023-04-03,2023-07-03,91
+2024-01-13,CID0009,Customer 9,Los Angeles,Fruits,6,45.58,56.97,370.3,Yes,1,Cash,Monthly,2023-02-22,2023-10-10,230
+2023-02-22,CID0010,Customer 10,Chicago,Vegetables,2,4.8,6.006,9.01,Yes,1,Cash,Monthly,2023-01-01,2023-01-23,22
+2023-12-13,CID0011,Customer 11,San Antonio,Fruits,6,72.35,90.44,542.64,Yes,2,Credit Card,Quarterly,2023-10-21,2023-10-22,1
+2024-01-15,CID0012,Customer 12,Chicago,Meat,19,72.78,90.98,1728.62,Yes,1,Cash,Weekly,2023-05-26,2023-09-09,106
+2023-02-14,CID0014,Customer 14,Phoenix,Bakery,8,0.96,1.2,9.6,Yes,2,Debit Card,Quarterly,2023-01-31,2023-06-02,122
+2023-10-30,CID0015,Customer 15,Houston,Vegetables,0,4.46,5.58,2.79,No,2,Online Payment,One Time,2023-08-14,2023-10-17,64
+2023-01-17,CID0017,Customer 17,Philadelphia,Bakery,9,10.86,13.57,122.13,No,3,Debit Card,Monthly,2023-06-01,2023-09-01,92
+2023-01-16,CID0018,Customer 18,Phoenix,Vegetables,13,32.14,40.18,522.34,Yes,4,Online Payment,Monthly,2023-02-01,2023-08-01,181
+2023-02-17,CID0019,Customer 19,Los Angeles,Bakery,11,73.84,92.3,1015.3,No,4,Online Payment,One Time,2023-01-17,2023-01-22,5
+2023-04-22,CID0020,Customer 20,Houston,Beverages,13,37.98,47.47,617.11,No,4,Cash,One Time,2023-04-21,2023-04-22,1
+2023-04-30,CID0021,Customer 21,Philadelphia,Dairy,10,1.46,1.83,18.3,Yes,3,Debit Card,One Time,2023-03-03,2023-03-17,14
+2023-09-16,CID0022,Customer 22,Philadelphia,Dairy,4,22.9,28.63,114.52,Yes,4,Cash,One Time,2023-02-28,2023-07-03,125
+2023-05-11,CID0023,Customer 23,Los Angeles,Dairy,6,3.95,4.94,29.64,Yes,3,Cash,One Time,2023-03-02,2023-07-16,136
+2023-01-14,CID0024,Customer 24,Houston,Dairy,7,3.29,4.11,28.77,No,2,Online Payment,Quarterly,2023-07-01,2023-08-01,31
+2023-10-15,CID0025,Customer 25,Phoenix,Packaged Foods,5,22.34,27.93,139.65,Yes,2,Online Payment,One Time,2023-09-09,2023-09-30,21
+2023-11-29,CID0028,Customer 28,Los Angeles,Packaged Foods,19,78.0,97.5,1852.5,No,3,Online Payment,One Time,2023-11-19,2023-11-19,0
+2023-12-26,CID0029,Customer 29,Philadelphia,Packaged Foods,10,29.95,37.44,374.4,No,4,Debit Card,One Time,2023-12-18,2023-12-22,4
+2023-07-10,CID0030,Customer 30,Phoenix,Dairy,10,34.54,43.17,431.7,No,2,Online Payment,Quarterly,2023-01-28,2023-09-19,234
+2023-03-08,CID0031,Customer 31,Houston,Beverages,11,67.65,84.56,930.16,Yes,3,Cash,Weekly,2023-08-02,2023-08-06,4
+2023-04-23,CID0032,Customer 32,New York,Meat,7,21.74,27.18,190.26,Yes,1,Debit Card,Quarterly,2023-01-20,2023-04-19,89
+2023-08-18,CID0033,Customer 33,New York,Meat,18,12.85,16.06,289.08,Yes,1,Online Payment,Quarterly,2023-07-27,2023-07-31,4
+2023-10-29,CID0034,Customer 34,Chicago,Fruits,4,68.3,85.38,341.52,Yes,4,Credit Card,One Time,2023-10-16,2023-10-28,12
+2023-05-23,CID0035,Customer 35,Chicago,Dairy,2,4.1,5.13,10.26,Yes,3,Debit Card,Monthly,2023-03-19,2023-05-18,60
+2023-04-01,CID0036,Customer 36,San Antonio,Dairy,14,49.73,62.16,870.24,Yes,2,Debit Card,Monthly,2023-01-01,2023-04-01,90
+2024-01-24,CID0037,Customer 37,Los Angeles,Dairy,13,45.14,56.42,733.46,Yes,4,Credit Card,Quarterly,2023-08-05,2023-10-05,61
+2023-03-23,CID0038,Customer 38,Houston,Bakery,12,27.94,34.92,419.04,Yes,2,Online Payment,One Time,2023-01-16,2023-01-26,10
+2023-12-24,CID0039,Customer 39,Houston,Vegetables,4,22.94,28.674,100.36,No,4,Online Payment,Weekly,2023-10-13,2023-10-15,2
+2023-05-08,CID0040,Customer 40,San Antonio,Bakery,2,61.84,77.3,154.6,Yes,2,Debit Card,Monthly,2023-07-15,2023-07-23,8
+2023-06-24,CID0041,Customer 41,Philadelphia,Vegetables,13,7.28,9.1,118.3,No,2,Debit Card,Weekly,2023-04-17,2023-05-14,27
+2023-05-23,CID0042,Customer 42,Philadelphia,Dairy,14,19.25,24.06,336.84,Yes,2,Online Payment,Monthly,2023-02-27,2023-03-18,19
+2023-04-21,CID0044,Customer 44,Philadelphia,Bakery,9,44.05,55.06,495.54,Yes,1,Cash,Quarterly,2023-02-18,2023-04-19,60
+2024-01-26,CID0045,Customer 45,Chicago,Bakery,17,10.58,13.23,224.91,Yes,3,Debit Card,Weekly,2023-08-19,2024-01-21,155
+2023-06-22,CID0046,Customer 46,Houston,Vegetables,4,63.55,79.443,317.77,Yes,4,Debit Card,Weekly,2023-04-24,2023-05-27,33
+2023-02-22,CID0047,Customer 47,San Antonio,Meat,2,31.72,39.65,79.3,Yes,4,Credit Card,Quarterly,2023-01-20,2023-02-16,27
+2023-02-17,CID0048,Customer 48,Houston,Vegetables,6,59.67,74.583,484.79,Yes,1,Cash,Weekly,2023-07-02,2023-08-02,31
+2023-07-14,CID0049,Customer 49,New York,Bakery,3,63.1,78.88,236.64,Yes,3,Online Payment,Monthly,2023-04-20,2023-05-26,36
+2023-02-19,CID0050,Customer 50,Chicago,Beverages,16,50.1,62.63,1002.08,Yes,1,Cash,Quarterly,2023-01-20,2023-01-27,7
+2023-03-07,CID0051,Customer 51,Phoenix,Bakery,6,39.76,49.7,298.2,No,1,Online Payment,Monthly,2023-05-26,2023-06-14,19
+2023-06-26,CID0052,Customer 52,Chicago,Beverages,19,78.38,97.97,1861.43,Yes,3,Online Payment,Monthly,2023-08-06,2023-11-06,92
+2023-06-11,CID0053,Customer 53,San Antonio,Fruits,7,11.94,14.92,104.44,Yes,3,Cash,One Time,2023-01-31,2023-02-24,24
+2023-05-16,CID0054,Customer 54,Phoenix,Bakery,10,58.12,72.65,726.5,Yes,1,Debit Card,Monthly,2023-01-26,2023-02-25,30
+2024-09-01,CID0056,Customer 56,San Antonio,Meat,2,27.33,34.16,68.32,Yes,4,Cash,Weekly,2023-11-17,2023-12-27,40
+2023-02-10,CID0058,Customer 58,Houston,Beverages,5,75.78,94.73,473.65,No,3,Cash,One Time,2023-05-16,2023-10-09,146
+2023-07-13,CID0060,Customer 60,Houston,Fruits,4,14.97,18.71,74.84,No,1,Online Payment,Quarterly,2023-10-02,2023-10-03,1
+2023-10-02,CID0061,Customer 61,Philadelphia,Beverages,18,2.15,2.69,48.42,No,1,Cash,Quarterly,2023-01-16,2023-01-31,15
+2023-10-10,CID0062,Customer 62,Los Angeles,Vegetables,4,57.71,72.14,288.56,Yes,2,Cash,One Time,2023-03-30,2023-08-29,152
+2023-05-31,CID0063,Customer 63,Los Angeles,Bakery,17,33.67,42.09,715.53,Yes,4,Credit Card,Weekly,2023-05-22,2023-05-30,8
+2023-11-13,CID0065,Customer 65,Los Angeles,Fruits,8,49.34,61.677,524.25,Yes,3,Cash,Quarterly,2023-03-22,2023-08-30,161
+2023-05-07,CID0066,Customer 66,Phoenix,Vegetables,10,43.79,54.74,547.4,Yes,4,Online Payment,One Time,2023-01-01,2023-12-05,338
+2023-10-23,CID0067,Customer 67,Los Angeles,Fruits,0,70.6,88.254,44.13,No,4,Cash,Quarterly,2023-07-29,2023-10-10,73
+2023-09-04,CID0068,Customer 68,Houston,Packaged Foods,18,18.5,23.13,416.34,Yes,3,Debit Card,Monthly,2023-02-27,2023-03-14,15
+2023-12-27,CID0069,Customer 69,Houston,Fruits,18,32.56,40.7,732.6,Yes,3,Credit Card,Monthly,2023-12-19,2023-12-21,2
+2023-05-02,CID0070,Customer 70,San Antonio,Beverages,14,43.58,54.48,762.72,Yes,3,Cash,One Time,2023-01-31,2023-02-02,2
+2023-05-12,CID0072,Customer 72,San Antonio,Beverages,12,44.09,55.11,661.32,Yes,3,Credit Card,Monthly,2023-01-17,2023-01-17,0
+2023-04-27,CID0073,Customer 73,Houston,Dairy,4,49.18,61.48,245.92,Yes,3,Credit Card,Weekly,2023-01-30,2023-04-18,78
+2024-01-31,CID0074,Customer 74,Phoenix,Packaged Foods,3,18.4,23.0,69.0,Yes,1,Cash,One Time,2023-05-28,2023-08-26,90
+2023-05-29,CID0075,Customer 75,San Antonio,Bakery,12,67.82,84.77,1017.24,Yes,3,Cash,Monthly,2023-03-14,2023-04-13,30
+2023-10-02,CID0076,Customer 76,Chicago,Fruits,7,34.52,43.15,302.05,Yes,2,Credit Card,Monthly,2023-01-30,2023-08-02,184
+2023-02-21,CID0078,Customer 78,New York,Meat,1,53.27,66.59,66.59,Yes,1,Credit Card,Weekly,2023-02-13,2023-02-15,2
+2023-07-14,CID0079,Customer 79,Houston,Fruits,6,17.6,22.0,132.0,Yes,3,Debit Card,Weekly,2023-01-03,2023-03-22,78
+2023-08-21,CID0081,Customer 81,Houston,Dairy,15,69.02,86.27,1294.05,Yes,2,Online Payment,Quarterly,2023-07-21,2023-08-13,23
+2023-11-22,CID0082,Customer 82,Los Angeles,Bakery,19,37.03,46.29,879.51,Yes,3,Credit Card,Weekly,2023-11-17,2023-11-17,0
+2023-09-07,CID0085,Customer 85,Philadelphia,Packaged Foods,14,63.04,78.8,1103.2,Yes,3,Debit Card,Monthly,2023-04-19,2023-06-22,64
+2023-01-07,CID0086,Customer 86,Los Angeles,Packaged Foods,2,9.31,11.64,23.28,Yes,4,Online Payment,Quarterly,2023-01-30,2023-08-06,188
+2023-12-26,CID0090,Customer 90,San Antonio,Meat,13,39.98,49.98,649.74,Yes,1,Cash,One Time,2023-05-17,2023-12-26,223
+2023-12-16,CID0091,Customer 91,Los Angeles,Packaged Foods,9,27.45,34.31,308.79,Yes,2,Cash,One Time,2023-03-14,2023-09-11,181
+2023-08-11,CID0094,Customer 94,Los Angeles,Bakery,11,60.77,75.96,835.56,Yes,1,Debit Card,Weekly,2023-03-26,2023-06-29,95
+2023-11-22,CID0095,Customer 95,Los Angeles,Vegetables,2,60.42,75.53,151.06,Yes,1,Debit Card,Weekly,2023-07-06,2023-10-08,94
+2023-03-29,CID0096,Customer 96,Philadelphia,Beverages,15,1.83,2.29,34.35,Yes,4,Online Payment,Monthly,2023-03-18,2023-03-29,11
+2023-01-10,CID0097,Customer 97,Houston,Dairy,14,10.45,13.06,182.84,Yes,4,Debit Card,One Time,2023-05-28,2023-05-30,2
+2024-09-01,CID0098,Customer 98,Philadelphia,Dairy,11,52.9,66.13,727.43,Yes,4,Online Payment,Monthly,2023-08-13,2023-12-11,120
+2023-06-05,CID0099,Customer 99,San Antonio,Packaged Foods,3,13.26,16.58,49.74,Yes,1,Cash,Weekly,2023-01-16,2023-04-26,100
+2023-03-25,CID0100,Customer 100,San Antonio,Dairy,17,20.74,25.92,440.64,Yes,1,Debit Card,Weekly,2023-01-03,2023-03-03,59
+2023-08-25,CID0101,Customer 101,Philadelphia,Packaged Foods,12,75.75,94.69,1136.28,Yes,3,Debit Card,Weekly,2023-06-26,2023-07-18,22
+2023-07-14,CID0102,Customer 102,San Antonio,Packaged Foods,15,44.99,56.24,843.6,Yes,1,Credit Card,One Time,2023-03-19,2023-04-18,30
+2023-05-19,CID0103,Customer 103,Houston,Beverages,16,60.16,75.2,1203.2,Yes,1,Debit Card,One Time,2023-04-14,2023-04-20,6
+2023-11-24,CID0104,Customer 104,New York,Dairy,5,44.82,56.02,280.1,Yes,3,Debit Card,Weekly,2023-05-20,2023-10-15,148
+2023-12-19,CID0105,Customer 105,Philadelphia,Packaged Foods,6,44.38,55.48,332.88,No,4,Credit Card,Monthly,2023-09-14,2023-12-17,94
+2023-10-13,CID0106,Customer 106,Phoenix,Meat,19,7.9,9.87,187.53,Yes,2,Credit Card,Monthly,2023-04-10,2023-09-10,153
+2023-12-17,CID0108,Customer 108,Los Angeles,Vegetables,3,22.88,28.6,85.8,Yes,3,Debit Card,Weekly,2023-08-13,2023-08-18,5
+2023-06-16,CID0109,Customer 109,San Antonio,Vegetables,1,31.5,39.38,39.38,Yes,2,Cash,Monthly,2023-01-21,2023-04-21,90
+2024-01-29,CID0110,Customer 110,Phoenix,Beverages,6,63.95,79.94,479.64,Yes,3,Cash,Weekly,2023-03-11,2024-11-01,601
+2023-01-29,CID0111,Customer 111,Los Angeles,Dairy,15,30.01,37.51,562.65,Yes,2,Credit Card,Monthly,2023-02-01,2023-12-01,303
+2023-04-28,CID0112,Customer 112,New York,Dairy,2,36.35,45.44,90.88,Yes,1,Online Payment,Quarterly,2023-04-24,2023-04-25,1
+2023-01-17,CID0113,Customer 113,Houston,Packaged Foods,3,32.03,40.04,120.12,No,4,Cash,Quarterly,2023-01-14,2023-01-17,3
+2023-11-06,CID0114,Customer 114,Houston,Fruits,17,7.83,9.79,166.43,Yes,1,Online Payment,Weekly,2023-03-24,2023-05-24,61
+2023-07-25,CID0115,Customer 115,Houston,Packaged Foods,12,35.51,44.39,532.68,No,4,Debit Card,Monthly,2023-04-06,2023-07-14,99
+2023-03-02,CID0117,Customer 117,New York,Meat,15,15.26,19.08,286.2,Yes,3,Debit Card,Quarterly,2023-02-01,2023-10-01,242
+2023-10-18,CID0119,Customer 119,San Antonio,Packaged Foods,16,28.79,35.99,575.84,Yes,1,Credit Card,Weekly,2023-04-28,2023-08-23,117
+2024-03-01,CID0120,Customer 120,Phoenix,Fruits,8,60.7,75.87,606.96,Yes,1,Debit Card,Monthly,2023-12-12,2023-12-13,1
+2023-04-19,CID0122,Customer 122,New York,Packaged Foods,17,25.26,31.58,536.86,Yes,4,Online Payment,Quarterly,2023-03-17,2023-03-29,12
+2023-09-13,CID0124,Customer 124,New York,Vegetables,15,15.99,19.99,299.85,Yes,3,Credit Card,Weekly,2023-05-18,2023-08-27,101
+2023-07-22,CID0125,Customer 125,New York,Beverages,14,71.8,89.75,1256.5,No,4,Cash,One Time,2023-05-28,2023-09-06,101
+2023-11-26,CID0126,Customer 126,Houston,Meat,18,41.81,52.26,940.68,Yes,3,Debit Card,One Time,2023-01-21,2023-11-02,285
+2023-03-15,CID0128,Customer 128,Chicago,Fruits,3,44.8,56.0,168.0,No,3,Credit Card,Monthly,2023-01-23,2023-11-02,283
+2023-05-16,CID0129,Customer 129,Chicago,Bakery,12,13.62,17.02,204.24,No,3,Debit Card,One Time,2023-01-05,2023-05-13,128
+2023-03-13,CID0130,Customer 130,New York,Meat,3,49.23,61.54,184.62,Yes,4,Debit Card,Monthly,2023-08-03,2023-12-03,122
+2023-07-05,CID0131,Customer 131,Chicago,Fruits,14,29.3,36.63,512.82,Yes,3,Debit Card,Quarterly,2023-03-25,2023-04-24,30
+2024-01-17,CID0132,Customer 132,Chicago,Meat,15,71.82,89.77,1346.55,No,4,Online Payment,One Time,2023-08-15,2023-10-18,64
+2023-03-10,CID0134,Customer 134,Chicago,Dairy,7,40.76,50.95,356.65,Yes,1,Cash,One Time,2023-03-04,2023-09-15,195
+2023-05-15,CID0135,Customer 135,Phoenix,Fruits,17,48.01,60.01,1020.17,Yes,1,Cash,Quarterly,2023-04-22,2023-04-28,6
+2023-08-08,CID0138,Customer 138,Los Angeles,Packaged Foods,9,58.72,73.4,660.6,Yes,4,Cash,Monthly,2023-01-24,2023-05-02,98
+2023-10-26,CID0139,Customer 139,New York,Meat,6,65.7,82.13,492.78,No,1,Online Payment,Weekly,2023-08-29,2023-10-23,55
+2023-07-24,CID0140,Customer 140,Houston,Packaged Foods,16,25.33,31.66,506.56,Yes,4,Credit Card,Weekly,2023-03-31,2023-06-22,83
+2023-05-07,CID0141,Customer 141,San Antonio,Beverages,2,63.97,79.96,159.92,No,4,Debit Card,One Time,2023-04-15,2023-05-27,42
+2023-09-18,CID0144,Customer 144,Los Angeles,Fruits,6,8.79,10.989,71.43,Yes,4,Cash,Quarterly,2023-02-23,2023-09-15,204
+2023-10-09,CID0145,Customer 145,New York,Meat,17,59.28,74.1,1259.7,Yes,4,Online Payment,Monthly,2023-08-08,2023-08-31,23
+2024-01-22,CID0147,Customer 147,San Antonio,Vegetables,18,79.08,98.85,1779.3,Yes,4,Online Payment,Monthly,2023-06-18,2023-09-28,102
+2023-01-25,CID0148,Customer 148,Philadelphia,Fruits,18,39.03,48.79,878.22,Yes,3,Debit Card,One Time,2023-01-14,2023-01-25,11
+2023-02-26,CID0149,Customer 149,Phoenix,Bakery,14,10.14,12.68,177.52,Yes,2,Credit Card,Monthly,2023-02-14,2023-02-21,7
+2023-11-18,CID0151,Customer 151,Houston,Meat,6,26.11,32.64,195.84,Yes,3,Online Payment,One Time,2023-05-28,2023-08-22,86
+2023-03-23,CID0152,Customer 152,Philadelphia,Vegetables,11,79.77,99.71,1096.81,Yes,3,Online Payment,Monthly,2023-02-21,2023-02-26,5
+2023-12-15,CID0153,Customer 153,Chicago,Vegetables,20,86.23,107.789,2101.89,Yes,2,Online Payment,Quarterly,2023-09-10,2023-11-12,63
+2023-02-11,CID0155,Customer 155,New York,Dairy,6,10.74,13.42,80.52,Yes,1,Debit Card,One Time,2023-08-21,2023-10-23,63
+2023-08-28,CID0160,Customer 160,Chicago,Fruits,9,17.1,21.37,192.33,Yes,1,Debit Card,Monthly,2023-01-30,2023-04-08,68
+2023-09-28,CID0161,Customer 161,New York,Bakery,17,30.57,38.21,649.57,Yes,3,Debit Card,Monthly,2023-07-26,2023-09-18,54
+2023-09-05,CID0162,Customer 162,Phoenix,Beverages,12,77.89,97.36,1168.32,No,4,Credit Card,One Time,2023-01-01,2023-01-21,20
+2023-11-10,CID0163,Customer 163,Los Angeles,Bakery,14,27.22,34.02,476.28,Yes,4,Debit Card,Quarterly,2023-05-10,2023-08-10,92
+2023-06-01,CID0164,Customer 164,San Antonio,Beverages,15,24.0,30.0,450.0,Yes,1,Credit Card,One Time,2023-04-01,2023-06-01,61
+2023-12-15,CID0165,Customer 165,San Antonio,Beverages,16,73.49,91.86,1469.76,Yes,1,Online Payment,Weekly,2023-07-31,2023-09-15,46
+2024-05-01,CID0166,Customer 166,Philadelphia,Packaged Foods,1,9.22,11.52,11.52,Yes,4,Debit Card,One Time,2023-01-28,2023-03-11,42
+2023-02-28,CID0167,Customer 167,San Antonio,Meat,10,60.86,76.08,760.8,Yes,4,Debit Card,Weekly,2023-01-13,2023-01-31,18
+2023-02-10,CID0169,Customer 169,New York,Dairy,18,72.14,90.18,1623.24,No,3,Online Payment,Monthly,2023-05-07,2023-07-18,72
+2024-01-20,CID0170,Customer 170,San Antonio,Beverages,1,52.27,65.34,65.34,No,2,Online Payment,Quarterly,2023-11-15,2023-11-25,10
+2024-01-29,CID0172,Customer 172,Los Angeles,Beverages,1,20.65,25.81,25.81,Yes,3,Cash,Monthly,2023-11-17,2023-12-24,37
+2023-11-25,CID0173,Customer 173,Los Angeles,Packaged Foods,1,65.62,82.02,82.02,Yes,2,Credit Card,Quarterly,2023-08-15,2023-09-23,39
+2023-06-24,CID0174,Customer 174,Houston,Packaged Foods,9,70.43,88.04,792.36,Yes,2,Credit Card,Quarterly,2023-01-14,2023-08-05,203
+2023-02-27,CID0175,Customer 175,Phoenix,Fruits,13,42.22,52.78,686.14,No,4,Debit Card,One Time,2023-01-14,2023-02-21,38
+2023-11-08,CID0177,Customer 177,San Antonio,Dairy,13,9.39,11.74,152.62,No,2,Debit Card,Monthly,2023-05-21,2023-11-06,169
+2023-03-22,CID0178,Customer 178,San Antonio,Dairy,7,7.34,9.17,64.19,Yes,3,Debit Card,One Time,2023-01-17,2023-03-14,56
+2023-08-21,CID0179,Customer 179,New York,Packaged Foods,2,57.64,72.05,144.1,Yes,1,Credit Card,Weekly,2023-03-15,2023-12-06,266
+2023-02-01,CID0180,Customer 180,Houston,Bakery,6,33.84,42.3,253.8,Yes,1,Online Payment,Weekly,2023-02-01,2023-02-01,0
+2024-05-01,CID0181,Customer 181,Phoenix,Meat,7,72.46,90.58,634.06,Yes,4,Debit Card,Monthly,2023-12-24,2023-12-24,0
+2024-04-01,CID0182,Customer 182,Houston,Packaged Foods,14,59.28,74.1,1037.4,Yes,4,Online Payment,Monthly,2023-06-09,2023-08-12,64
+2023-05-15,CID0183,Customer 183,Philadelphia,Beverages,18,15.62,19.53,351.54,Yes,4,Debit Card,One Time,2023-01-02,2023-03-18,75
+2023-09-14,CID0184,Customer 184,Phoenix,Vegetables,15,49.26,61.57,923.55,Yes,4,Cash,One Time,2023-01-15,2023-06-21,157
+2024-01-26,CID0185,Customer 185,San Antonio,Meat,2,35.06,43.83,87.66,Yes,3,Debit Card,Monthly,2023-11-19,2024-01-13,55
+2023-02-04,CID0186,Customer 186,San Antonio,Meat,10,46.35,57.94,579.4,Yes,4,Debit Card,Monthly,2023-03-19,2023-03-23,4
+2023-09-17,CID0187,Customer 187,Phoenix,Dairy,12,59.15,73.94,887.28,Yes,3,Debit Card,Weekly,2023-03-05,2023-05-17,73
+2023-02-24,CID0188,Customer 188,San Antonio,Meat,17,64.58,80.72,1372.24,Yes,3,Credit Card,Weekly,2023-02-15,2023-02-16,1
+2023-11-17,CID0189,Customer 189,Chicago,Packaged Foods,8,67.56,84.45,675.6,Yes,4,Cash,Weekly,2023-03-23,2023-10-09,200
+2023-02-06,CID0190,Customer 190,Phoenix,Beverages,11,20.62,25.77,283.47,Yes,2,Debit Card,Monthly,2023-03-21,2023-11-05,229
+2023-12-04,CID0194,Customer 194,Chicago,Beverages,6,25.46,31.83,190.98,Yes,1,Debit Card,Weekly,2023-02-22,2023-10-04,224
+2023-11-07,CID0196,Customer 196,Philadelphia,Beverages,7,54.66,68.33,478.31,No,4,Online Payment,One Time,2023-02-27,2023-06-03,96
+2024-01-26,CID0197,Customer 197,Houston,Fruits,9,13.7,17.13,154.17,Yes,3,Credit Card,Monthly,2023-02-28,2023-12-05,280
+2023-03-24,CID0198,Customer 198,Los Angeles,Vegetables,18,52.56,65.7,1182.6,Yes,1,Online Payment,Monthly,2023-01-03,2023-03-20,76
+2023-04-10,CID0199,Customer 199,Los Angeles,Packaged Foods,12,79.34,99.18,1190.16,Yes,1,Debit Card,Monthly,2023-02-03,2023-08-22,200
+2023-09-29,CID0200,Customer 200,Phoenix,Dairy,8,6.18,7.73,61.84,No,4,Credit Card,Monthly,2023-03-20,2023-10-07,201
+2023-01-01,CID0201,Customer 201,Philadelphia,Vegetables,8,6.54,8.17,65.36,Yes,3,Credit Card,Quarterly,2023-01-01,2023-01-01,0
+2023-08-09,CID0204,Customer 204,Philadelphia,Meat,7,17.56,21.95,153.65,Yes,2,Online Payment,One Time,2023-06-30,2023-07-30,30
+2023-10-01,CID0205,Customer 205,Houston,Bakery,11,29.09,36.36,399.96,No,3,Credit Card,Monthly,2023-05-01,2023-10-01,153
+2023-02-27,CID0206,Customer 206,Houston,Beverages,16,5.86,7.32,117.12,Yes,4,Cash,Weekly,2023-01-27,2023-02-19,23
+2023-05-07,CID0207,Customer 207,Houston,Vegetables,2,55.03,68.787,137.57,No,3,Debit Card,Quarterly,2023-04-05,2023-05-27,52
+2023-07-06,CID0208,Customer 208,Houston,Beverages,6,32.9,41.13,246.78,Yes,4,Online Payment,Monthly,2023-01-05,2023-05-25,140
+2023-03-05,CID0209,Customer 209,Houston,Meat,3,60.84,76.05,228.15,Yes,2,Online Payment,Monthly,2023-01-02,2023-04-14,102
+2023-01-30,CID0210,Customer 210,Philadelphia,Dairy,9,72.33,90.41,813.69,Yes,4,Credit Card,Monthly,2023-01-15,2023-01-16,1
+2023-10-18,CID0212,Customer 212,Chicago,Fruits,14,64.67,80.84,1131.76,Yes,1,Online Payment,Weekly,2023-03-16,2023-04-24,39
+2023-10-02,CID0213,Customer 213,Los Angeles,Meat,11,5.1,6.38,70.18,No,3,Online Payment,Weekly,2023-01-25,2023-08-02,189
+2023-02-13,CID0214,Customer 214,San Antonio,Fruits,18,71.95,89.94,1618.92,No,2,Online Payment,Quarterly,2023-01-13,2023-05-02,109
+2024-10-01,CID0215,Customer 215,Houston,Meat,12,52.2,65.25,783.0,Yes,4,Debit Card,One Time,2023-03-11,2023-12-20,284
+2023-09-30,CID0219,Customer 219,New York,Beverages,19,31.42,39.28,746.32,Yes,4,Credit Card,One Time,2023-05-22,2023-06-26,35
+2024-01-28,CID0220,Customer 220,New York,Beverages,19,30.61,38.26,726.94,Yes,3,Online Payment,Weekly,2023-01-08,2023-12-14,340
+2023-06-03,CID0221,Customer 221,New York,Bakery,14,18.45,23.06,322.84,Yes,4,Debit Card,Weekly,2023-02-13,2023-02-24,11
+2023-07-03,CID0222,Customer 222,Chicago,Beverages,4,30.78,38.47,153.88,Yes,2,Online Payment,Quarterly,2023-06-03,2023-07-03,30
+2023-01-09,CID0224,Customer 224,New York,Packaged Foods,8,33.26,41.57,332.56,Yes,4,Debit Card,One Time,2023-07-30,2023-08-16,17
+2023-09-10,CID0225,Customer 225,Houston,Meat,19,64.26,80.33,1526.27,No,2,Credit Card,Monthly,2023-02-01,2023-09-05,216
+2023-05-16,CID0227,Customer 227,New York,Dairy,18,1.83,2.29,41.22,Yes,3,Cash,Weekly,2023-03-18,2023-03-19,1
+2023-09-28,CID0228,Customer 228,Chicago,Dairy,6,33.94,42.43,254.58,Yes,3,Debit Card,Quarterly,2023-08-09,2023-09-13,35
+2023-07-11,CID0229,Customer 229,San Antonio,Fruits,18,2.56,3.2,57.6,No,2,Credit Card,Quarterly,2023-03-18,2023-07-23,127
+2023-05-08,CID0230,Customer 230,Philadelphia,Beverages,19,77.31,96.64,1836.16,Yes,2,Online Payment,Weekly,2023-04-25,2023-06-30,66
+2024-01-22,CID0233,Customer 233,Philadelphia,Bakery,3,77.83,97.29,291.87,Yes,3,Cash,Monthly,2023-06-26,2023-11-16,143
+2024-09-01,CID0234,Customer 234,Phoenix,Packaged Foods,10,66.15,82.69,826.9,Yes,4,Credit Card,Weekly,2023-06-20,2023-07-20,30
+2023-12-20,CID0235,Customer 235,New York,Vegetables,19,56.06,70.08,1331.52,Yes,4,Cash,Quarterly,2023-10-10,2023-12-11,62
+2023-04-13,CID0236,Customer 236,Chicago,Meat,3,67.22,84.03,252.09,Yes,3,Online Payment,One Time,2023-08-04,2023-10-04,61
+2023-07-24,CID0239,Customer 239,San Antonio,Vegetables,7,44.91,56.14,392.98,Yes,2,Credit Card,One Time,2023-04-27,2023-07-14,78
+2023-10-12,CID0240,Customer 240,Chicago,Meat,12,50.41,63.01,756.12,Yes,4,Credit Card,Weekly,2023-06-14,2023-08-26,73
+2023-08-13,CID0243,Customer 243,Houston,Bakery,4,36.21,45.26,181.04,Yes,3,Cash,One Time,2023-03-03,2023-04-23,51
+2023-09-22,CID0244,Customer 244,New York,Fruits,18,19.57,24.464,440.35,Yes,3,Credit Card,One Time,2023-07-16,2023-07-31,15
+2023-08-20,CID0245,Customer 245,Philadelphia,Fruits,18,9.97,12.46,224.28,Yes,3,Credit Card,Weekly,2023-01-03,2023-04-04,91
+2023-03-03,CID0246,Customer 246,New York,Fruits,26,6.42,8.03,204.77,Yes,1,Debit Card,Weekly,2023-02-24,2023-02-25,1
+2023-04-26,CID0248,Customer 248,Houston,Packaged Foods,9,4.07,5.09,45.81,Yes,3,Cash,Quarterly,2023-02-22,2023-03-16,22
+2023-06-23,CID0250,Customer 250,Philadelphia,Packaged Foods,2,22.99,28.74,57.48,No,4,Debit Card,Quarterly,2023-03-23,2023-06-22,91
+2023-11-01,CID0251,Customer 251,San Antonio,Dairy,4,66.03,82.54,330.16,Yes,1,Credit Card,One Time,2023-08-01,2023-11-01,92
+2023-10-29,CID0252,Customer 252,Los Angeles,Beverages,2,6.31,7.89,15.78,Yes,4,Debit Card,Weekly,2023-07-15,2023-07-26,11
+2023-11-10,CID0253,Customer 253,Chicago,Packaged Foods,15,18.42,23.02,345.3,Yes,4,Debit Card,Monthly,2023-07-17,2023-08-26,40
+2023-04-28,CID0254,Customer 254,New York,Fruits,3,64.38,80.476,241.43,Yes,4,Debit Card,Monthly,2023-03-26,2023-04-17,22
+2023-10-29,CID0255,Customer 255,Phoenix,Bakery,4,48.06,60.08,240.32,Yes,4,Debit Card,Quarterly,2023-03-19,2023-09-16,181
+2023-04-23,CID0256,Customer 256,New York,Beverages,6,5.54,6.92,41.52,Yes,2,Online Payment,One Time,2023-05-03,2023-09-03,123
+2023-04-01,CID0257,Customer 257,New York,Meat,7,70.23,87.79,614.53,Yes,4,Online Payment,Quarterly,2023-01-01,2023-03-01,59
+2023-12-29,CID0259,Customer 259,New York,Vegetables,19,26.7,33.38,634.22,Yes,4,Debit Card,Monthly,2023-09-15,2023-10-23,38
+2023-04-28,CID0262,Customer 262,Houston,Dairy,3,50.24,62.8,188.4,Yes,4,Debit Card,Monthly,2023-04-22,2023-04-23,1
+2023-01-17,CID0264,Customer 264,San Antonio,Vegetables,18,67.12,83.9,1510.2,Yes,4,Online Payment,Quarterly,2023-01-15,2023-01-16,1
+2023-06-19,CID0265,Customer 265,Phoenix,Meat,8,23.11,28.89,231.12,Yes,3,Credit Card,Quarterly,2023-01-26,2023-05-06,100
+2023-06-02,CID0266,Customer 266,New York,Dairy,15,34.56,43.2,648.0,No,4,Cash,Monthly,2023-03-02,2023-04-02,31
+2023-09-21,CID0267,Customer 267,New York,Dairy,1,21.71,27.14,27.14,Yes,3,Debit Card,Monthly,2023-08-22,2023-08-25,3
+2023-04-20,CID0272,Customer 272,Houston,Dairy,10,17.93,22.41,224.1,Yes,2,Cash,Weekly,2023-03-25,2023-04-19,25
+2023-04-10,CID0273,Customer 273,Los Angeles,Fruits,6,35.34,44.181,265.09,Yes,3,Credit Card,Weekly,2023-03-21,2023-07-25,126
+2023-09-03,CID0274,Customer 274,Philadelphia,Bakery,14,59.11,73.89,1034.46,Yes,2,Online Payment,Weekly,2023-10-01,2023-11-01,31
+2024-06-01,CID0275,Customer 275,San Antonio,Beverages,14,42.21,52.76,738.64,No,4,Credit Card,Weekly,2023-08-29,2023-11-29,92
+2023-05-05,CID0279,Customer 279,Chicago,Bakery,6,76.48,95.6,573.6,Yes,1,Debit Card,One Time,2023-03-30,2023-04-28,29
+2023-07-28,CID0281,Customer 281,San Antonio,Bakery,9,55.68,69.6,626.4,Yes,1,Debit Card,Quarterly,2023-06-16,2023-06-24,8
+2023-02-18,CID0283,Customer 283,Phoenix,Dairy,14,72.89,91.11,1275.54,Yes,4,Debit Card,One Time,2023-01-22,2023-01-24,2
+2023-02-19,CID0284,Customer 284,Houston,Beverages,7,37.37,46.71,326.97,Yes,4,Cash,One Time,2023-02-13,2023-02-13,0
+2023-04-12,CID0285,Customer 285,Los Angeles,Vegetables,2,11.34,14.18,28.36,Yes,3,Cash,Monthly,2023-01-10,2023-09-11,244
+2023-01-07,CID0287,Customer 287,Philadelphia,Meat,6,13.52,16.9,101.4,Yes,1,Online Payment,Weekly,2023-03-23,2023-06-22,91
+2023-07-30,CID0289,Customer 289,San Antonio,Bakery,2,75.87,94.84,189.68,No,3,Online Payment,Quarterly,2023-03-07,2023-07-18,133
+2023-08-28,CID0290,Customer 290,New York,Vegetables,3,35.84,44.8,134.4,Yes,3,Online Payment,Monthly,2023-08-16,2023-08-24,8
+2024-09-01,CID0291,Customer 291,New York,Fruits,8,69.51,86.889,651.67,Yes,3,Debit Card,Weekly,2023-07-09,2023-10-29,112
+2023-01-28,CID0292,Customer 292,Houston,Vegetables,2,46.18,57.726,144.32,No,3,Credit Card,Monthly,2023-01-28,2023-01-28,0
+2023-11-12,CID0293,Customer 293,Chicago,Packaged Foods,1,54.24,67.8,67.8,Yes,3,Credit Card,One Time,2023-05-10,2023-10-14,157
+2023-01-12,CID0294,Customer 294,Philadelphia,Beverages,8,10.88,13.6,108.8,Yes,4,Online Payment,Quarterly,2023-01-19,2023-03-24,64
+2023-11-27,CID0295,Customer 295,Phoenix,Dairy,12,19.04,23.8,285.6,No,1,Debit Card,Quarterly,2023-11-13,2023-11-18,5
+2023-01-02,CID0297,Customer 297,Houston,Beverages,13,77.67,97.09,1262.17,Yes,1,Online Payment,Quarterly,2023-01-16,2023-01-18,2
+2024-08-01,CID0299,Customer 299,Chicago,Packaged Foods,11,22.02,27.52,302.72,Yes,3,Debit Card,Weekly,2023-12-17,2023-12-31,14
+2023-06-23,CID0300,Customer 300,Houston,Packaged Foods,10,38.04,47.55,475.5,No,1,Debit Card,Monthly,2023-03-15,2023-10-06,205
+2023-02-25,CID0301,Customer 301,Chicago,Packaged Foods,3,78.71,98.39,295.17,Yes,4,Debit Card,Weekly,2023-01-15,2023-02-17,33
+2023-08-05,CID0302,Customer 302,Los Angeles,Fruits,7,19.63,24.534,171.74,Yes,2,Credit Card,One Time,2023-01-24,2023-09-03,222
+2023-09-04,CID0303,Customer 303,Chicago,Fruits,16,32.79,40.99,655.84,Yes,1,Cash,One Time,2023-02-25,2023-05-03,67
+2023-08-04,CID0304,Customer 304,San Antonio,Fruits,10,71.36,89.2,892.0,Yes,3,Credit Card,Quarterly,2023-01-13,2023-03-24,70
+2023-02-10,CID0305,Customer 305,Chicago,Fruits,10,0.63,0.79,7.9,Yes,1,Cash,One Time,2023-02-21,2023-03-08,15
+2023-08-18,CID0306,Customer 306,Houston,Packaged Foods,12,3.57,4.46,53.52,No,3,Debit Card,Monthly,2023-04-24,2023-08-07,105
+2023-03-13,CID0307,Customer 307,San Antonio,Packaged Foods,9,48.49,60.61,545.49,Yes,4,Online Payment,Weekly,2023-01-22,2023-02-02,11
+2023-08-05,CID0312,Customer 312,Los Angeles,Packaged Foods,12,38.05,47.56,570.72,Yes,1,Online Payment,Quarterly,2023-03-25,2023-03-28,3
+2023-08-02,CID0313,Customer 313,New York,Dairy,1,49.95,62.44,62.44,Yes,2,Debit Card,Quarterly,2023-04-01,2023-11-01,214
+2023-08-15,CID0314,Customer 314,Chicago,Beverages,11,37.79,47.24,519.64,Yes,2,Cash,Quarterly,2023-03-17,2023-07-27,132
+2023-09-10,CID0315,Customer 315,Houston,Beverages,5,36.02,45.02,225.1,Yes,3,Online Payment,One Time,2023-03-07,2023-07-22,137
+2023-02-20,CID0316,Customer 316,New York,Dairy,15,38.15,47.69,715.35,Yes,3,Online Payment,Weekly,2023-01-24,2023-02-02,9
+2023-01-26,CID0317,Customer 317,New York,Packaged Foods,5,47.43,59.29,296.45,Yes,3,Debit Card,One Time,2023-01-14,2023-01-16,2
+2023-11-30,CID0318,Customer 318,Los Angeles,Dairy,12,43.14,53.93,647.16,Yes,1,Credit Card,Weekly,2023-03-16,2023-06-06,82
+2023-04-10,CID0319,Customer 319,San Antonio,Vegetables,5,68.39,85.49,427.45,No,1,Credit Card,Monthly,2023-06-05,2023-07-27,52
+2023-08-01,CID0320,Customer 320,San Antonio,Meat,17,4.34,5.42,92.14,Yes,4,Debit Card,Monthly,2023-07-01,2023-07-01,0
+2023-02-17,CID0321,Customer 321,Philadelphia,Packaged Foods,17,66.74,83.42,1418.14,No,3,Online Payment,One Time,2023-06-02,2023-11-02,153
+2024-01-21,CID0322,Customer 322,Los Angeles,Packaged Foods,12,67.58,84.47,1013.64,Yes,4,Debit Card,Quarterly,2023-12-16,2024-01-18,33
+2023-03-27,CID0324,Customer 324,San Antonio,Fruits,15,37.24,46.55,698.25,No,3,Credit Card,Quarterly,2023-01-24,2023-03-19,54
+2023-07-28,CID0325,Customer 325,Houston,Meat,6,35.3,44.13,264.78,Yes,3,Cash,Weekly,2023-02-13,2023-05-03,79
+2023-06-09,CID0326,Customer 326,Los Angeles,Beverages,12,17.79,22.24,266.88,No,2,Debit Card,Quarterly,2023-02-14,2023-04-19,64
+2023-04-09,CID0327,Customer 327,New York,Packaged Foods,18,31.98,39.98,719.64,Yes,3,Debit Card,Quarterly,2023-01-21,2023-12-03,316
+2023-04-20,CID0328,Customer 328,Houston,Dairy,14,3.94,4.92,68.88,Yes,3,Online Payment,Weekly,2023-03-20,2023-06-04,76
+2023-01-31,CID0330,Customer 330,New York,Bakery,9,65.41,81.76,735.84,Yes,2,Online Payment,Weekly,2023-01-20,2023-01-30,10
+2023-03-26,CID0331,Customer 331,Los Angeles,Beverages,5,23.05,28.81,144.05,Yes,4,Cash,One Time,2023-01-31,2023-02-19,19
+2023-02-01,CID0333,Customer 333,Philadelphia,Fruits,3,42.71,53.39,160.17,Yes,2,Debit Card,One Time,2023-01-01,2023-01-01,0
+2023-07-19,CID0334,Customer 334,Houston,Bakery,6,70.44,88.05,528.3,Yes,2,Online Payment,One Time,2023-01-03,2023-09-04,244
+2023-08-21,CID0336,Customer 336,Phoenix,Dairy,5,2.76,3.45,17.25,Yes,3,Online Payment,Monthly,2023-06-13,2023-07-26,43
+2024-10-01,CID0340,Customer 340,New York,Meat,14,74.38,92.98,1301.72,No,3,Credit Card,Weekly,2023-08-12,2023-09-12,31
+2024-03-01,CID0343,Customer 343,Chicago,Vegetables,27,64.35,80.432,2171.66,Yes,3,Online Payment,One Time,2023-05-28,2023-08-11,75
+2023-08-04,CID0346,Customer 346,New York,Vegetables,18,20.95,26.19,471.42,Yes,1,Credit Card,Quarterly,2023-01-21,2023-02-16,26
+2023-01-06,CID0347,Customer 347,Houston,Fruits,7,54.1,67.62,473.34,Yes,4,Debit Card,Quarterly,2023-01-19,2023-05-05,106
+2023-04-22,CID0348,Customer 348,Chicago,Beverages,15,24.02,30.02,450.3,Yes,1,Debit Card,Monthly,2023-02-26,2023-06-04,98
+2023-01-30,CID0349,Customer 349,New York,Beverages,11,57.58,71.98,791.78,Yes,4,Cash,One Time,2023-12-01,2023-12-01,0
+2023-10-24,CID0350,Customer 350,Houston,Bakery,18,76.34,95.43,1717.74,Yes,3,Debit Card,One Time,2023-03-06,2023-08-10,157
+2024-12-01,CID0351,Customer 351,Philadelphia,Packaged Foods,12,57.82,72.28,867.36,Yes,2,Online Payment,Weekly,2023-11-24,2024-03-01,98
+2023-05-10,CID0352,Customer 352,Houston,Packaged Foods,6,69.09,86.36,518.16,Yes,4,Cash,Monthly,2023-06-08,2023-09-09,93
+2023-01-02,CID0353,Customer 353,Philadelphia,Meat,13,0.57,0.71,9.23,Yes,1,Cash,Weekly,2023-01-17,2023-01-26,9
+2023-10-06,CID0355,Customer 355,Philadelphia,Meat,18,66.43,83.04,1494.72,Yes,3,Online Payment,One Time,2023-03-19,2023-05-19,61
+2023-01-26,CID0357,Customer 357,Chicago,Bakery,8,69.78,87.22,697.76,Yes,3,Cash,Weekly,2023-01-13,2023-01-25,12
+2023-10-27,CID0358,Customer 358,New York,Bakery,18,20.83,26.04,468.72,Yes,1,Cash,Weekly,2023-05-09,2023-10-26,170
+2023-02-09,CID0359,Customer 359,Phoenix,Bakery,1,53.36,66.7,66.7,Yes,1,Cash,Weekly,2023-01-28,2023-07-22,175
+2023-09-15,CID0360,Customer 360,Los Angeles,Packaged Foods,8,64.11,80.14,641.12,Yes,1,Online Payment,One Time,2023-02-05,2023-08-13,189
+2023-09-29,CID0361,Customer 361,Philadelphia,Meat,6,53.15,66.44,398.64,Yes,2,Online Payment,One Time,2023-07-15,2023-08-22,38
+2023-03-22,CID0362,Customer 362,Los Angeles,Meat,5,7.74,9.68,48.4,Yes,3,Credit Card,One Time,2023-03-15,2023-03-22,7
+2023-09-18,CID0364,Customer 364,Philadelphia,Vegetables,15,44.14,55.18,827.7,Yes,4,Credit Card,One Time,2023-01-06,2023-08-28,234
+2023-11-02,CID0365,Customer 365,Chicago,Dairy,2,72.06,90.08,180.16,No,4,Online Payment,Monthly,2023-01-19,2023-01-20,1
+2023-05-02,CID0367,Customer 367,New York,Dairy,11,25.96,32.45,356.95,Yes,3,Online Payment,Weekly,2023-01-26,2023-02-02,7
+2023-04-02,CID0369,Customer 369,New York,Meat,18,33.25,41.56,748.08,Yes,2,Credit Card,One Time,2023-01-01,2023-01-31,30
+2023-12-12,CID0370,Customer 370,Houston,Meat,18,51.83,64.79,1166.22,Yes,3,Credit Card,Weekly,2023-10-17,2023-11-15,29
+2023-01-05,CID0371,Customer 371,New York,Vegetables,17,51.86,64.82,1101.94,Yes,1,Cash,One Time,2023-04-21,2023-04-24,3
+2023-07-26,CID0372,Customer 372,Philadelphia,Dairy,8,71.09,88.86,710.88,Yes,2,Credit Card,Monthly,2023-06-25,2023-07-16,21
+2023-03-03,CID0373,Customer 373,Phoenix,Dairy,15,48.06,60.07,901.05,Yes,4,Credit Card,Weekly,2023-02-19,2023-02-28,9
+2023-10-19,CID0374,Customer 374,Houston,Bakery,8,40.37,50.46,403.68,Yes,3,Online Payment,One Time,2023-01-26,2023-09-04,221
+2023-01-11,CID0377,Customer 377,New York,Beverages,8,12.68,15.85,126.8,Yes,2,Credit Card,One Time,2023-05-27,2023-08-23,88
+2023-11-14,CID0379,Customer 379,Houston,Beverages,4,51.18,63.97,255.88,Yes,1,Cash,Weekly,2023-07-11,2023-09-11,62
+2023-11-02,CID0380,Customer 380,Chicago,Beverages,1,59.38,74.23,74.23,Yes,3,Online Payment,Weekly,2023-01-23,2023-03-02,38
+2023-03-08,CID0381,Customer 381,Chicago,Packaged Foods,1,42.58,53.23,53.23,Yes,1,Credit Card,Weekly,2023-02-26,2023-07-07,131
+2023-03-12,CID0382,Customer 382,Philadelphia,Packaged Foods,19,66.39,82.99,1576.81,Yes,3,Cash,Monthly,2023-11-22,2023-11-30,8
+2023-09-25,CID0385,Customer 385,Philadelphia,Dairy,16,55.71,69.64,1114.24,Yes,4,Debit Card,Weekly,2023-12-03,2023-12-05,2
+2023-11-06,CID0386,Customer 386,Philadelphia,Meat,5,42.78,53.48,267.4,Yes,4,Credit Card,One Time,2023-10-06,2023-11-06,31
+2023-05-14,CID0387,Customer 387,Philadelphia,Vegetables,9,36.13,45.16,406.44,Yes,2,Cash,Quarterly,2023-01-25,2023-09-02,220
+2023-04-15,CID0388,Customer 388,Philadelphia,Bakery,2,7.12,8.9,17.8,Yes,4,Online Payment,Monthly,2023-03-22,2023-03-30,8
+2024-02-01,CID0390,Customer 390,Chicago,Vegetables,9,80.13,100.166,901.49,Yes,3,Online Payment,Quarterly,2023-01-21,2023-05-27,126
+2023-10-06,CID0391,Customer 391,Philadelphia,Fruits,9,64.72,80.9,728.1,Yes,3,Cash,Quarterly,2023-03-21,2023-08-04,136
+2023-05-16,CID0393,Customer 393,Chicago,Packaged Foods,9,37.54,46.93,422.37,Yes,1,Debit Card,One Time,2023-04-23,2023-04-24,1
+2023-09-03,CID0395,Customer 395,Phoenix,Dairy,13,5.76,7.2,93.6,Yes,2,Online Payment,Monthly,2023-02-16,2023-02-28,12
+2023-10-12,CID0396,Customer 396,Philadelphia,Meat,9,31.24,39.05,351.45,No,3,Online Payment,One Time,2023-09-03,2023-09-10,7
+2023-11-27,CID0397,Customer 397,New York,Meat,13,68.21,85.26,1108.38,Yes,3,Debit Card,One Time,2023-02-16,2023-06-23,127
+2023-03-06,CID0398,Customer 398,Houston,Meat,9,32.55,40.69,366.21,Yes,4,Credit Card,Quarterly,2023-03-17,2023-06-04,79
+2023-08-23,CID0399,Customer 399,San Antonio,Meat,11,6.58,8.22,90.42,No,4,Online Payment,One Time,2023-03-25,2023-06-16,83
+2023-11-06,CID0400,Customer 400,New York,Bakery,4,43.58,54.48,217.92,Yes,4,Online Payment,Weekly,2023-04-17,2023-05-23,36
+2024-01-20,CID0401,Customer 401,Phoenix,Bakery,2,68.99,86.24,172.48,No,2,Credit Card,One Time,2023-03-31,2023-07-09,100
+2023-07-02,CID0402,Customer 402,Houston,Packaged Foods,6,47.38,59.23,355.38,Yes,2,Online Payment,Monthly,2023-01-13,2023-01-19,6
+2023-05-01,CID0403,Customer 403,Phoenix,Vegetables,14,18.41,23.01,322.14,Yes,3,Credit Card,Monthly,2023-02-01,2023-03-01,28
+2023-08-23,CID0404,Customer 404,Chicago,Fruits,4,30.98,38.73,154.92,Yes,1,Online Payment,Weekly,2023-07-21,2023-08-21,31
+2023-11-15,CID0405,Customer 405,Houston,Meat,6,36.23,45.29,271.74,Yes,1,Credit Card,Monthly,2023-04-10,2023-05-11,31
+2023-07-02,CID0408,Customer 408,New York,Fruits,3,9.1,11.374,34.12,Yes,4,Debit Card,Weekly,2023-02-02,2023-04-02,59
+2023-03-10,CID0409,Customer 409,Houston,Beverages,18,71.22,89.02,1602.36,Yes,2,Online Payment,Quarterly,2023-05-20,2023-09-24,127
+2023-04-20,CID0410,Customer 410,Houston,Dairy,13,1.38,1.72,22.36,No,2,Online Payment,Quarterly,2023-04-17,2023-04-17,0
+2023-09-17,CID0411,Customer 411,Philadelphia,Bakery,9,29.86,37.32,335.88,No,1,Cash,One Time,2023-03-26,2023-04-18,23
+2023-09-03,CID0413,Customer 413,Philadelphia,Fruits,13,31.68,39.6,514.8,No,4,Debit Card,One Time,2023-03-03,2023-07-03,122
+2023-06-28,CID0414,Customer 414,Phoenix,Beverages,11,42.26,52.82,581.02,Yes,4,Debit Card,One Time,2023-03-17,2023-05-14,58
+2023-05-02,CID0415,Customer 415,Philadelphia,Dairy,1,41.13,51.41,51.41,Yes,4,Debit Card,Quarterly,2023-01-22,2023-01-25,3
+2023-06-05,CID0416,Customer 416,Chicago,Packaged Foods,7,13.58,16.98,118.86,Yes,3,Credit Card,Monthly,2023-04-13,2023-04-19,6
+2023-09-07,CID0417,Customer 417,Houston,Fruits,15,51.8,64.75,971.25,Yes,3,Cash,Weekly,2023-01-30,2023-06-28,149
+2023-05-26,CID0418,Customer 418,New York,Beverages,1,3.97,4.96,4.96,Yes,2,Debit Card,Monthly,2023-04-30,2023-11-05,189
+2023-06-10,CID0421,Customer 421,New York,Vegetables,15,27.45,34.31,514.65,Yes,3,Debit Card,Quarterly,2023-04-26,2023-07-07,72
+2023-12-27,CID0422,Customer 422,Philadelphia,Beverages,19,41.58,51.97,987.43,Yes,4,Debit Card,Quarterly,2023-12-13,2023-12-20,7
+2023-09-28,CID0426,Customer 426,Houston,Fruits,3,63.42,79.28,237.84,No,3,Online Payment,One Time,2023-02-16,2023-04-30,73
+2023-05-01,CID0427,Customer 427,New York,Fruits,18,52.62,65.78,1184.04,No,1,Credit Card,Monthly,2023-04-01,2023-04-01,0
+2023-03-06,CID0430,Customer 430,Phoenix,Packaged Foods,3,42.67,53.34,160.02,Yes,4,Online Payment,Quarterly,2023-05-18,2023-05-22,4
+2023-06-12,CID0431,Customer 431,Phoenix,Dairy,8,67.4,84.25,674.0,Yes,1,Credit Card,Monthly,2023-05-03,2023-07-18,76
+2023-02-23,CID0432,Customer 432,San Antonio,Packaged Foods,14,46.58,58.23,815.22,Yes,4,Online Payment,One Time,2023-01-30,2023-02-22,23
+2023-10-03,CID0433,Customer 433,New York,Bakery,14,44.95,56.19,786.66,Yes,1,Credit Card,Weekly,2023-02-17,2023-02-28,11
+2023-02-24,CID0436,Customer 436,New York,Bakery,14,77.78,97.22,1361.08,No,1,Debit Card,Monthly,2023-01-25,2023-01-26,1
+2024-01-16,CID0437,Customer 437,Los Angeles,Fruits,4,16.73,20.907,94.08,No,1,Cash,Weekly,2023-11-23,2023-12-18,25
+2023-03-21,CID0439,Customer 439,Philadelphia,Meat,8,42.74,53.43,427.44,Yes,4,Cash,Quarterly,2023-01-14,2023-07-02,169
+2023-05-20,CID0440,Customer 440,Los Angeles,Fruits,8,10.09,12.609,100.87,Yes,3,Debit Card,Monthly,2023-01-03,2023-04-16,103
+2023-05-25,CID0441,Customer 441,Chicago,Bakery,2,8.3,10.38,20.76,Yes,3,Cash,One Time,2023-01-05,2023-05-18,133
+2023-06-11,CID0442,Customer 442,Philadelphia,Vegetables,6,17.02,21.28,127.68,Yes,3,Credit Card,Monthly,2023-01-13,2023-09-06,236
+2023-04-18,CID0443,Customer 443,Los Angeles,Fruits,6,66.67,83.34,500.04,Yes,1,Credit Card,One Time,2023-03-21,2023-03-23,2
+2023-06-25,CID0445,Customer 445,Philadelphia,Packaged Foods,2,31.88,39.85,79.7,No,1,Debit Card,Monthly,2023-03-25,2023-05-28,64
+2023-12-18,CID0447,Customer 447,Los Angeles,Fruits,2,10.89,13.617,34.04,Yes,3,Debit Card,Weekly,2023-04-24,2023-05-11,17
+2023-11-21,CID0448,Customer 448,San Antonio,Vegetables,15,39.23,49.04,735.6,Yes,4,Online Payment,Monthly,2023-02-02,2023-10-11,251
+2023-05-16,CID0449,Customer 449,Chicago,Dairy,12,10.75,13.44,161.28,Yes,1,Debit Card,One Time,2023-04-29,2023-07-05,67
+2023-09-16,CID0450,Customer 450,Los Angeles,Beverages,4,66.9,83.63,334.52,Yes,3,Online Payment,Weekly,2023-04-06,2023-08-22,138
+2023-09-05,CID0452,Customer 452,Los Angeles,Packaged Foods,11,30.23,37.79,415.69,Yes,1,Debit Card,Monthly,2023-04-15,2023-04-18,3
+2023-01-27,CID0453,Customer 453,New York,Vegetables,16,38.13,47.66,762.56,Yes,3,Online Payment,Monthly,2023-04-01,2023-08-01,122
+2023-11-21,CID0455,Customer 455,New York,Vegetables,14,79.59,99.49,1392.86,Yes,3,Online Payment,Monthly,2023-01-24,2023-08-13,201
+2023-01-23,CID0458,Customer 458,San Antonio,Dairy,11,48.7,60.88,669.68,Yes,4,Online Payment,Monthly,2023-01-16,2023-01-21,5
+2023-02-01,CID0459,Customer 459,Phoenix,Dairy,13,12.46,15.58,202.54,Yes,3,Debit Card,One Time,2023-01-01,2023-01-01,0
+2023-06-20,CID0460,Customer 460,Los Angeles,Meat,11,2.86,3.58,39.38,Yes,3,Online Payment,Weekly,2023-01-25,2023-03-16,50
+2024-01-30,CID0461,Customer 461,San Antonio,Dairy,16,77.67,97.09,1553.44,Yes,3,Credit Card,One Time,2023-01-05,2024-01-16,376
+2023-08-03,CID0462,Customer 462,Los Angeles,Dairy,15,61.98,77.47,1162.05,No,4,Cash,One Time,2023-01-18,2023-12-02,318
+2023-11-23,CID0463,Customer 463,Chicago,Beverages,15,78.42,98.02,1470.3,Yes,2,Credit Card,Quarterly,2023-07-18,2023-11-23,128
+2023-05-15,CID0464,Customer 464,Los Angeles,Fruits,2,34.6,43.245,86.49,Yes,4,Credit Card,Monthly,2023-04-27,2023-04-28,1
+2023-03-24,CID0465,Customer 465,New York,Packaged Foods,11,42.77,53.46,588.06,Yes,4,Credit Card,Weekly,2023-02-17,2023-02-19,2
+2024-01-15,CID0466,Customer 466,Phoenix,Meat,19,13.8,17.25,327.75,Yes,4,Debit Card,One Time,2023-10-12,2023-12-12,61
+2023-10-10,CID0468,Customer 468,Los Angeles,Bakery,4,67.15,83.94,335.76,Yes,3,Cash,Monthly,2023-04-10,2023-09-10,153
+2023-12-28,CID0469,Customer 469,San Antonio,Fruits,13,28.75,35.94,467.22,Yes,4,Debit Card,Quarterly,2023-03-08,2023-10-27,233
+2023-07-08,CID0470,Customer 470,New York,Fruits,28,72.84,91.047,2594.84,No,3,Cash,Quarterly,2023-05-31,2023-07-30,60
+2023-10-15,CID0471,Customer 471,Houston,Bakery,2,56.84,71.05,142.1,Yes,1,Credit Card,Quarterly,2023-03-21,2023-07-31,132
+2023-05-01,CID0472,Customer 472,Phoenix,Packaged Foods,14,14.5,18.13,253.82,No,2,Cash,Weekly,2023-04-01,2023-05-01,30
+2023-08-02,CID0474,Customer 474,New York,Beverages,16,54.32,67.9,1086.4,No,2,Credit Card,Quarterly,2023-07-01,2023-08-02,32
+2023-12-20,CID0475,Customer 475,Philadelphia,Vegetables,14,19.11,23.89,334.46,No,4,Debit Card,Quarterly,2023-08-09,2023-09-25,47
+2023-03-18,CID0476,Customer 476,Philadelphia,Meat,15,66.52,83.15,1247.25,Yes,3,Online Payment,Quarterly,2023-02-22,2023-04-03,40
+2023-07-10,CID0477,Customer 477,Houston,Vegetables,2,39.39,49.239,73.86,No,3,Credit Card,One Time,2023-05-24,2023-08-13,81
+2023-01-19,CID0478,Customer 478,Chicago,Bakery,8,13.55,16.94,135.52,Yes,1,Credit Card,One Time,2023-02-01,2023-07-01,150
+2023-10-26,CID0480,Customer 480,San Antonio,Packaged Foods,10,79.98,99.97,999.7,Yes,4,Credit Card,Quarterly,2023-09-07,2023-09-25,18
+2023-10-10,CID0481,Customer 481,Houston,Fruits,4,12.38,15.48,61.92,Yes,4,Debit Card,Monthly,2023-04-22,2023-07-07,76
+2023-03-17,CID0482,Customer 482,Los Angeles,Meat,18,65.42,81.77,1471.86,Yes,3,Cash,Quarterly,2023-02-26,2023-03-16,18
+2023-09-08,CID0483,Customer 483,Los Angeles,Fruits,1,15.21,19.017,19.02,No,3,Online Payment,Weekly,2023-04-24,2023-06-06,43
+2023-07-03,CID0484,Customer 484,San Antonio,Fruits,17,62.68,78.35,1331.95,Yes,3,Debit Card,Weekly,2023-01-31,2023-04-03,62
+2023-07-06,CID0486,Customer 486,Philadelphia,Beverages,4,24.32,30.4,121.6,Yes,3,Online Payment,One Time,2023-01-26,2023-05-31,125
+2023-03-07,CID0489,Customer 489,Los Angeles,Packaged Foods,12,37.13,46.41,556.92,Yes,4,Debit Card,Quarterly,2023-05-20,2023-08-06,78
+2023-04-18,CID0490,Customer 490,San Antonio,Bakery,10,58.58,73.22,732.2,Yes,4,Debit Card,Weekly,2023-03-24,2023-08-04,133
+2023-12-16,CID0491,Customer 491,Philadelphia,Fruits,7,12.18,15.22,106.54,Yes,1,Credit Card,Monthly,2023-03-07,2023-07-07,122
+2023-08-05,CID0492,Customer 492,Phoenix,Packaged Foods,13,68.26,85.33,1109.29,Yes,4,Cash,One Time,2023-01-16,2023-04-03,77
+2023-08-12,CID0493,Customer 493,Philadelphia,Fruits,7,56.98,71.23,498.61,No,3,Online Payment,One Time,2023-07-23,2023-10-15,84
+2023-02-22,CID0494,Customer 494,Los Angeles,Bakery,17,72.59,90.74,1542.58,Yes,3,Debit Card,Quarterly,2023-01-18,2023-01-25,7
+2023-01-07,CID0495,Customer 495,Los Angeles,Beverages,10,10.94,13.67,136.7,Yes,1,Credit Card,Monthly,2023-02-18,2023-04-06,47
+2023-10-14,CID0496,Customer 496,Philadelphia,Packaged Foods,10,47.6,59.5,595.0,Yes,3,Online Payment,Weekly,2023-04-03,2023-07-31,119
+2023-07-28,CID0497,Customer 497,New York,Dairy,4,48.09,60.11,240.44,Yes,2,Cash,Quarterly,2023-04-27,2023-05-06,9
+2024-01-19,CID0499,Customer 499,Los Angeles,Dairy,7,36.9,46.12,322.84,Yes,4,Online Payment,One Time,2023-06-12,2024-01-13,215
+2023-03-21,CID0500,Customer 500,Philadelphia,Beverages,1,3.42,4.28,4.28,Yes,4,Cash,Quarterly,2023-01-28,2023-02-27,30
+2023-02-05,CID0501,Customer 501,San Antonio,Beverages,12,59.77,74.71,896.52,No,3,Debit Card,One Time,2023-03-24,2023-09-04,164
+2023-03-25,CID0502,Customer 502,Philadelphia,Bakery,13,44.13,55.16,717.08,Yes,4,Debit Card,One Time,2023-03-23,2023-03-25,2
+2023-01-04,CID0503,Customer 503,Chicago,Fruits,10,5.0,6.25,62.5,No,2,Debit Card,Quarterly,2023-03-18,2023-03-30,12
+2023-07-31,CID0504,Customer 504,Houston,Bakery,15,54.59,68.24,1023.6,No,2,Cash,Quarterly,2023-06-01,2023-07-23,52
+2023-01-13,CID0505,Customer 505,Phoenix,Bakery,13,37.55,46.94,610.22,Yes,3,Debit Card,Quarterly,2023-01-01,2023-10-01,273
+2023-06-20,CID0508,Customer 508,Houston,Vegetables,8,68.36,85.446,640.84,Yes,2,Debit Card,One Time,2023-02-02,2023-02-15,13
+2023-07-30,CID0509,Customer 509,Houston,Fruits,10,41.22,51.53,515.3,Yes,1,Cash,Weekly,2023-07-21,2023-07-30,9
+2023-09-12,CID0510,Customer 510,Houston,Beverages,10,7.86,9.82,98.2,Yes,4,Debit Card,Weekly,2023-10-17,2023-11-16,30
+2024-12-01,CID0511,Customer 511,Phoenix,Dairy,8,60.46,75.58,604.64,Yes,2,Online Payment,Quarterly,2023-04-16,2023-12-07,235
+2023-08-05,CID0512,Customer 512,San Antonio,Packaged Foods,16,39.56,49.45,791.2,Yes,3,Credit Card,One Time,2023-01-18,2023-03-26,67
+2023-05-17,CID0513,Customer 513,Houston,Vegetables,8,22.02,27.531,234.01,Yes,1,Cash,Weekly,2023-02-23,2023-05-14,80
+2023-03-23,CID0514,Customer 514,Philadelphia,Vegetables,5,39.52,49.4,247.0,Yes,4,Credit Card,Weekly,2023-03-17,2023-03-22,5
+2023-12-26,CID0515,Customer 515,Phoenix,Beverages,4,41.98,52.48,209.92,No,2,Online Payment,Weekly,2023-04-21,2023-09-26,158
+2023-02-25,CID0516,Customer 516,Houston,Meat,18,45.19,56.49,1016.82,Yes,4,Cash,One Time,2023-02-22,2023-02-25,3
+2023-07-15,CID0517,Customer 517,Philadelphia,Fruits,19,35.52,44.4,843.6,Yes,3,Cash,Quarterly,2023-01-03,2023-07-04,182
+2023-08-29,CID0519,Customer 519,Chicago,Beverages,7,73.53,91.91,643.37,Yes,3,Credit Card,Quarterly,2023-07-18,2023-07-20,2
+2023-04-24,CID0520,Customer 520,San Antonio,Beverages,10,29.24,36.55,365.5,Yes,1,Online Payment,Monthly,2023-01-19,2023-02-04,16
+2023-08-24,CID0522,Customer 522,Phoenix,Packaged Foods,19,71.6,89.5,1700.5,Yes,2,Cash,Monthly,2023-08-19,2023-08-19,0
+2023-06-29,CID0523,Customer 523,Los Angeles,Meat,4,36.7,45.87,183.48,Yes,4,Debit Card,One Time,2023-02-06,2023-08-06,181
+2023-06-06,CID0524,Customer 524,Houston,Fruits,10,35.7,44.62,446.2,No,1,Cash,Weekly,2023-01-01,2023-05-01,120
+2023-04-25,CID0526,Customer 526,Philadelphia,Packaged Foods,18,47.47,59.34,1068.12,Yes,1,Cash,One Time,2023-04-20,2023-04-22,2
+2023-01-13,CID0527,Customer 527,Chicago,Packaged Foods,5,64.61,80.76,403.8,Yes,2,Cash,One Time,2023-03-01,2023-09-01,184
+2023-06-18,CID0531,Customer 531,Houston,Dairy,12,0.66,0.82,9.84,Yes,1,Cash,Monthly,2023-02-14,2023-07-04,140
+2023-05-23,CID0532,Customer 532,Los Angeles,Beverages,2,51.36,64.2,128.4,No,2,Debit Card,One Time,2023-01-29,2023-03-04,34
+2024-01-31,CID0534,Customer 534,Los Angeles,Meat,17,19.54,24.42,415.14,Yes,1,Online Payment,Weekly,2023-09-03,2023-09-04,1
+2023-05-23,CID0535,Customer 535,Phoenix,Fruits,16,25.22,31.53,504.48,Yes,3,Credit Card,One Time,2023-04-01,2023-08-02,123
+2023-06-29,CID0536,Customer 536,Los Angeles,Packaged Foods,5,20.78,25.98,129.9,Yes,1,Online Payment,One Time,2023-02-04,2023-07-06,152
+2023-11-25,CID0537,Customer 537,Phoenix,Packaged Foods,15,2.85,3.56,53.4,Yes,1,Debit Card,Weekly,2023-02-05,2023-06-24,139
+2023-09-18,CID0538,Customer 538,Philadelphia,Meat,3,77.74,97.17,291.51,Yes,4,Online Payment,Quarterly,2023-06-15,2023-08-25,71
+2023-12-14,CID0540,Customer 540,San Antonio,Packaged Foods,11,58.83,73.54,808.94,Yes,1,Cash,Weekly,2023-03-31,2023-11-30,244
+2023-02-10,CID0541,Customer 541,New York,Bakery,10,61.1,76.38,763.8,Yes,2,Credit Card,Weekly,2023-05-16,2023-09-27,134
+2023-06-19,CID0542,Customer 542,Houston,Fruits,9,74.37,92.96,836.64,Yes,3,Cash,Monthly,2023-01-14,2023-04-20,96
+2023-01-15,CID0543,Customer 543,Phoenix,Fruits,14,2.83,3.54,49.56,Yes,2,Cash,One Time,2023-03-01,2023-08-01,153
+2023-01-03,CID0544,Customer 544,New York,Packaged Foods,13,69.82,87.27,1134.51,Yes,3,Online Payment,Monthly,2023-02-17,2023-02-19,2
+2023-10-25,CID0547,Customer 547,New York,Dairy,7,51.7,64.62,452.34,No,2,Debit Card,Weekly,2023-02-28,2023-05-26,87
+2023-05-16,CID0548,Customer 548,San Antonio,Packaged Foods,18,65.66,82.07,1477.26,Yes,3,Online Payment,Monthly,2023-01-17,2023-03-27,69
+2023-01-20,CID0549,Customer 549,Los Angeles,Bakery,3,26.94,33.67,101.01,Yes,4,Debit Card,Monthly,2023-01-16,2023-01-18,2
+2023-02-25,CID0550,Customer 550,Philadelphia,Beverages,10,58.75,73.44,734.4,Yes,3,Online Payment,Quarterly,2023-01-29,2023-02-19,21
+2023-02-11,CID0551,Customer 551,Philadelphia,Fruits,7,42.47,53.09,371.63,No,2,Cash,Weekly,2023-05-07,2023-11-10,187
+2023-06-26,CID0553,Customer 553,Phoenix,Bakery,17,79.25,99.06,1684.02,Yes,2,Credit Card,One Time,2023-01-06,2023-06-21,166
+2024-09-01,CID0554,Customer 554,Phoenix,Dairy,11,16.37,20.46,225.06,Yes,1,Debit Card,Monthly,2023-02-25,2023-10-07,224
+2023-12-08,CID0556,Customer 556,Phoenix,Fruits,14,7.55,9.44,132.16,Yes,4,Credit Card,One Time,2023-09-05,2023-09-07,2
+2023-07-11,CID0557,Customer 557,San Antonio,Meat,19,0.58,0.73,13.87,Yes,3,Debit Card,Weekly,2023-04-24,2023-12-06,226
+2023-09-19,CID0558,Customer 558,San Antonio,Packaged Foods,4,3.91,4.89,19.56,Yes,3,Cash,Quarterly,2023-01-23,2023-03-27,63
+2023-01-03,CID0559,Customer 559,Phoenix,Vegetables,6,27.61,34.51,207.06,Yes,3,Online Payment,Quarterly,2023-02-16,2023-02-20,4
+2023-01-23,CID0564,Customer 564,Houston,Meat,4,65.82,82.28,329.12,No,4,Online Payment,Monthly,2023-01-21,2023-01-22,1
+2023-12-29,CID0565,Customer 565,Los Angeles,Meat,8,64.81,81.01,648.08,Yes,4,Online Payment,Quarterly,2023-01-16,2023-02-05,20
+2023-12-08,CID0566,Customer 566,Chicago,Bakery,5,70.8,88.5,442.5,No,4,Cash,Monthly,2023-01-16,2023-11-07,295
+2023-01-01,CID0567,Customer 567,Phoenix,Beverages,1,56.12,70.15,70.15,Yes,3,Online Payment,One Time,2023-01-01,2023-01-01,0
+2023-09-24,CID0568,Customer 568,Philadelphia,Bakery,4,8.71,10.89,43.56,Yes,1,Cash,One Time,2023-07-25,2023-08-14,20
+2023-12-18,CID0570,Customer 570,Phoenix,Packaged Foods,9,57.96,72.45,652.05,Yes,3,Cash,Weekly,2023-12-18,2023-12-18,0
+2024-04-01,CID0571,Customer 571,Philadelphia,Packaged Foods,8,22.71,28.39,227.12,Yes,3,Debit Card,Quarterly,2023-02-25,2023-08-12,168
+2024-01-15,CID0572,Customer 572,Houston,Vegetables,0,49.61,62.01,31.01,No,4,Credit Card,Weekly,2023-09-09,2023-11-18,70
+2024-01-13,CID0573,Customer 573,Phoenix,Packaged Foods,6,2.35,2.94,17.64,Yes,2,Online Payment,Monthly,2023-12-31,2024-04-01,92
+2023-10-12,CID0574,Customer 574,San Antonio,Vegetables,9,24.77,30.96,278.64,Yes,2,Cash,One Time,2023-08-16,2023-08-31,15
+2023-06-07,CID0576,Customer 576,Philadelphia,Fruits,4,50.71,63.39,253.56,Yes,2,Online Payment,One Time,2023-01-21,2023-09-06,228
+2023-09-08,CID0577,Customer 577,Philadelphia,Packaged Foods,13,46.34,57.92,752.96,Yes,3,Online Payment,Weekly,2023-03-24,2023-06-29,97
+2023-07-12,CID0579,Customer 579,Houston,Dairy,2,0.89,1.11,2.22,Yes,3,Credit Card,One Time,2023-03-02,2023-07-29,149
+2023-06-19,CID0580,Customer 580,Phoenix,Bakery,5,8.43,10.54,52.7,Yes,4,Cash,One Time,2023-02-02,2023-11-03,274
+2023-10-06,CID0582,Customer 582,Los Angeles,Meat,8,54.66,68.33,546.64,No,4,Debit Card,Quarterly,2023-09-06,2023-09-06,0
+2023-06-12,CID0583,Customer 583,Los Angeles,Bakery,6,9.39,11.74,70.44,Yes,1,Credit Card,Weekly,2023-11-21,2023-11-30,9
+2023-03-06,CID0586,Customer 586,Houston,Vegetables,2,34.62,43.281,64.92,Yes,1,Debit Card,One Time,2023-02-06,2023-03-06,28
+2023-09-17,CID0587,Customer 587,New York,Fruits,18,13.16,16.445,296.01,Yes,3,Credit Card,One Time,2023-05-31,2023-07-26,56
+2023-08-06,CID0588,Customer 588,Philadelphia,Packaged Foods,3,56.93,71.16,213.48,Yes,2,Debit Card,One Time,2023-04-27,2023-07-06,70
+2023-08-12,CID0589,Customer 589,Philadelphia,Bakery,6,53.48,66.85,401.1,Yes,1,Debit Card,Weekly,2023-09-16,2023-10-18,32
+2023-07-29,CID0590,Customer 590,Phoenix,Meat,2,17.21,21.51,43.02,Yes,1,Debit Card,Weekly,2023-04-06,2023-07-21,106
+2023-06-17,CID0591,Customer 591,San Antonio,Dairy,12,69.13,86.41,1036.92,Yes,1,Online Payment,One Time,2023-04-21,2023-05-21,30
+2023-07-26,CID0592,Customer 592,Los Angeles,Vegetables,2,32.34,40.43,80.86,No,4,Online Payment,Monthly,2023-01-26,2023-03-21,54
+2023-12-23,CID0593,Customer 593,Los Angeles,Packaged Foods,6,23.69,29.61,177.66,Yes,1,Online Payment,Weekly,2023-02-28,2023-11-06,251
+2023-01-06,CID0594,Customer 594,Philadelphia,Vegetables,17,12.53,15.66,266.22,Yes,2,Online Payment,Quarterly,2023-05-22,2023-05-30,8
+2023-11-10,CID0595,Customer 595,Phoenix,Dairy,3,21.58,26.98,80.94,Yes,3,Cash,Weekly,2023-04-21,2023-06-29,69
+2023-07-03,CID0596,Customer 596,Houston,Packaged Foods,2,2.15,2.69,5.38,Yes,2,Credit Card,One Time,2023-02-25,2023-05-03,67
+2023-09-04,CID0597,Customer 597,Los Angeles,Packaged Foods,8,46.82,58.53,468.24,Yes,4,Online Payment,Monthly,2023-02-27,2023-03-16,17
+2023-04-08,CID0598,Customer 598,Houston,Meat,12,67.44,84.3,1011.6,Yes,1,Cash,One Time,2023-02-28,2023-04-04,35
+2023-07-12,CID0599,Customer 599,San Antonio,Meat,4,44.1,55.12,220.48,No,3,Credit Card,Quarterly,2023-07-31,2023-08-27,27
+2023-07-14,CID0600,Customer 600,Los Angeles,Bakery,5,17.86,22.32,111.6,Yes,3,Online Payment,Weekly,2023-03-28,2023-06-14,78
+2023-12-13,CID0601,Customer 601,Los Angeles,Bakery,13,3.08,3.85,50.05,Yes,4,Credit Card,Weekly,2023-08-21,2023-11-23,94
+2024-01-19,CID0602,Customer 602,Chicago,Beverages,15,17.49,21.86,327.9,Yes,3,Online Payment,One Time,2023-07-24,2023-12-21,150
+2023-03-31,CID0603,Customer 603,Los Angeles,Beverages,16,33.52,41.9,670.4,Yes,4,Cash,One Time,2023-02-23,2023-10-03,222
+2023-12-11,CID0604,Customer 604,New York,Fruits,15,66.95,83.688,1255.32,Yes,1,Debit Card,Quarterly,2023-02-18,2023-06-22,124
+2023-07-27,CID0607,Customer 607,Houston,Meat,17,69.41,86.76,1474.92,Yes,4,Cash,Monthly,2023-03-22,2023-05-18,57
+2023-01-01,CID0609,Customer 609,Los Angeles,Meat,12,65.78,82.23,986.76,Yes,1,Online Payment,Monthly,2023-01-01,2023-01-01,0
+2023-05-27,CID0611,Customer 611,Houston,Beverages,3,51.11,63.89,191.67,Yes,1,Credit Card,Weekly,2023-02-05,2023-05-15,99
+2023-09-08,CID0613,Customer 613,Houston,Fruits,13,37.27,46.59,605.67,No,4,Cash,Weekly,2023-01-24,2023-07-26,183
+2023-10-24,CID0614,Customer 614,Houston,Vegetables,10,17.17,21.465,203.92,No,3,Credit Card,Quarterly,2023-02-13,2023-06-13,120
+2023-07-11,CID0615,Customer 615,Los Angeles,Beverages,8,24.54,30.67,245.36,No,3,Debit Card,Weekly,2023-02-17,2023-09-04,199
+2023-08-27,CID0618,Customer 618,New York,Packaged Foods,12,9.95,12.44,149.28,Yes,1,Debit Card,Weekly,2023-10-07,2023-10-07,0
+2023-04-20,CID0622,Customer 622,Chicago,Fruits,8,13.02,16.28,130.24,No,3,Cash,Weekly,2023-03-13,2023-12-04,266
+2023-09-19,CID0623,Customer 623,Phoenix,Beverages,7,70.61,88.26,617.82,Yes,1,Credit Card,Quarterly,2023-01-31,2023-02-06,6
+2023-08-31,CID0624,Customer 624,Houston,Fruits,1,65.98,82.47,82.47,Yes,3,Online Payment,One Time,2023-05-31,2023-08-22,83
+2023-03-28,CID0626,Customer 626,New York,Bakery,12,22.02,27.52,330.24,No,4,Online Payment,Weekly,2023-03-13,2023-03-22,9
+2023-04-12,CID0627,Customer 627,New York,Fruits,9,35.68,44.594,401.35,Yes,4,Credit Card,One Time,2023-06-18,2023-08-09,52
+2023-05-26,CID0629,Customer 629,Chicago,Fruits,14,15.45,19.31,270.34,Yes,2,Debit Card,Monthly,2023-01-02,2023-04-24,112
+2023-06-12,CID0631,Customer 631,Phoenix,Beverages,1,57.32,71.65,71.65,No,1,Debit Card,One Time,2023-01-07,2023-07-23,197
+2023-11-21,CID0632,Customer 632,Phoenix,Dairy,18,47.64,59.55,1071.9,Yes,3,Credit Card,Quarterly,2023-05-08,2023-10-27,172
+2023-11-14,CID0633,Customer 633,Houston,Beverages,13,71.7,89.62,1165.06,Yes,3,Credit Card,Quarterly,2023-01-27,2023-05-25,118
+2023-06-21,CID0634,Customer 634,San Antonio,Meat,2,46.83,58.54,117.08,Yes,1,Credit Card,One Time,2023-03-15,2023-05-22,68
+2023-02-17,CID0635,Customer 635,Philadelphia,Vegetables,9,37.57,46.96,422.64,Yes,4,Credit Card,Quarterly,2023-08-02,2023-08-02,0
+2023-01-05,CID0637,Customer 637,Phoenix,Bakery,9,75.26,94.07,846.63,Yes,2,Debit Card,Weekly,2023-02-15,2023-09-04,201
+2023-11-12,CID0638,Customer 638,Chicago,Bakery,1,6.98,8.73,8.73,No,4,Credit Card,Quarterly,2023-02-23,2023-05-24,90
+2023-08-06,CID0639,Customer 639,Los Angeles,Vegetables,11,74.5,93.12,1024.32,No,1,Debit Card,One Time,2023-05-28,2023-05-28,0
+2023-03-17,CID0642,Customer 642,New York,Dairy,18,45.38,56.72,1020.96,Yes,3,Credit Card,Monthly,2023-01-20,2023-01-31,11
+2023-01-24,CID0644,Customer 644,Phoenix,Vegetables,3,45.92,57.4,172.2,No,4,Debit Card,One Time,2023-01-16,2023-01-20,4
+2023-06-05,CID0645,Customer 645,Los Angeles,Bakery,11,72.62,90.77,998.47,Yes,4,Cash,Weekly,2023-01-29,2023-02-02,4
+2023-01-09,CID0646,Customer 646,Los Angeles,Vegetables,15,75.46,94.33,1414.95,Yes,2,Cash,Quarterly,2023-05-08,2023-05-08,0
+2023-09-11,CID0647,Customer 647,Los Angeles,Meat,5,34.02,42.53,212.65,Yes,4,Cash,One Time,2023-02-25,2023-07-27,152
+2024-01-29,CID0648,Customer 648,Philadelphia,Fruits,10,30.43,38.04,380.4,Yes,1,Online Payment,Weekly,2023-06-29,2023-11-21,145
+2023-07-02,CID0649,Customer 649,Los Angeles,Beverages,12,74.93,93.66,1123.92,Yes,4,Debit Card,Monthly,2023-05-02,2023-07-02,61
+2023-01-08,CID0651,Customer 651,New York,Fruits,26,10.6,13.244,337.72,Yes,1,Credit Card,Weekly,2023-01-30,2023-04-25,85
+2023-10-22,CID0653,Customer 653,Houston,Fruits,6,45.34,56.68,340.08,Yes,2,Online Payment,One Time,2023-10-21,2023-10-22,1
+2023-10-04,CID0654,Customer 654,Los Angeles,Beverages,18,74.44,93.05,1674.9,Yes,2,Credit Card,Monthly,2023-01-29,2023-08-04,187
+2024-03-01,CID0655,Customer 655,Phoenix,Vegetables,13,67.6,84.5,1098.5,Yes,2,Debit Card,Weekly,2023-08-08,2023-12-20,134
+2023-12-23,CID0656,Customer 656,Los Angeles,Meat,3,54.2,67.75,203.25,Yes,1,Credit Card,One Time,2023-10-15,2023-12-17,63
+2023-07-16,CID0657,Customer 657,Phoenix,Packaged Foods,10,11.47,14.34,143.4,Yes,1,Cash,One Time,2023-07-16,2023-07-16,0
+2023-11-09,CID0658,Customer 658,Chicago,Bakery,14,20.64,25.8,361.2,Yes,1,Credit Card,Weekly,2023-07-29,2023-08-30,32
+2023-05-05,CID0660,Customer 660,Houston,Beverages,3,14.95,18.69,56.07,Yes,1,Debit Card,Weekly,2023-03-20,2023-06-04,76
+2023-03-17,CID0661,Customer 661,New York,Bakery,16,22.56,28.2,451.2,No,3,Online Payment,Weekly,2023-03-13,2023-03-14,1
+2023-02-12,CID0662,Customer 662,Phoenix,Dairy,7,10.72,13.4,93.8,No,2,Debit Card,Weekly,2023-01-14,2023-12-03,323
+2023-12-19,CID0663,Customer 663,Phoenix,Fruits,14,54.22,67.77,948.78,Yes,4,Cash,Monthly,2023-08-11,2023-11-29,110
+2023-03-01,CID0664,Customer 664,New York,Packaged Foods,9,75.54,94.43,849.87,No,4,Debit Card,Weekly,2023-03-01,2023-03-01,0
+2024-01-20,CID0665,Customer 665,Houston,Beverages,15,21.81,27.26,408.9,Yes,2,Credit Card,Quarterly,2023-12-22,2024-01-14,23
+2024-01-30,CID0666,Customer 666,Los Angeles,Dairy,3,38.24,47.8,143.4,Yes,4,Credit Card,One Time,2023-05-17,2024-06-01,381
+2023-02-24,CID0667,Customer 667,Phoenix,Vegetables,2,50.9,63.62,127.24,Yes,4,Cash,Monthly,2023-02-01,2023-12-02,304
+2023-06-08,CID0668,Customer 668,New York,Meat,2,79.96,99.95,199.9,Yes,4,Debit Card,One Time,2023-02-16,2023-04-22,65
+2023-01-04,CID0670,Customer 670,New York,Fruits,27,44.1,55.121,1488.27,Yes,1,Credit Card,Quarterly,2023-03-31,2023-03-31,0
+2023-12-23,CID0671,Customer 671,Chicago,Bakery,14,31.06,38.82,543.48,Yes,3,Online Payment,Monthly,2023-08-06,2023-12-13,129
+2023-08-26,CID0673,Customer 673,Los Angeles,Vegetables,10,38.29,47.86,478.6,Yes,3,Online Payment,Monthly,2023-03-31,2023-06-14,75
+2023-01-26,CID0674,Customer 674,New York,Bakery,2,9.23,11.54,23.08,No,2,Online Payment,One Time,2023-01-01,2023-01-19,18
+2023-10-13,CID0675,Customer 675,San Antonio,Fruits,1,50.9,63.63,63.63,Yes,4,Debit Card,Weekly,2023-03-04,2023-09-22,202
+2023-04-03,CID0677,Customer 677,Philadelphia,Bakery,14,0.63,0.79,11.06,Yes,2,Online Payment,Weekly,2023-06-02,2023-11-02,153
+2023-08-22,CID0678,Customer 678,Phoenix,Meat,1,68.78,85.97,85.97,Yes,1,Online Payment,One Time,2023-06-18,2023-08-08,51
+2023-10-03,CID0679,Customer 679,Houston,Beverages,14,15.21,19.01,266.14,Yes,2,Debit Card,Quarterly,2023-02-21,2023-06-03,102
+2023-08-26,CID0680,Customer 680,New York,Vegetables,16,44.34,55.43,886.88,Yes,4,Debit Card,Quarterly,2023-01-18,2023-05-29,131
+2023-08-12,CID0681,Customer 681,San Antonio,Beverages,14,33.5,41.87,586.18,Yes,3,Credit Card,Monthly,2023-03-14,2023-08-28,167
+2023-10-14,CID0683,Customer 683,San Antonio,Meat,3,29.94,37.43,112.29,Yes,3,Credit Card,Monthly,2023-02-16,2023-05-29,102
+2023-12-06,CID0685,Customer 685,Chicago,Dairy,6,58.54,73.18,439.08,Yes,2,Credit Card,Quarterly,2023-02-25,2023-03-20,23
+2023-08-15,CID0687,Customer 687,Philadelphia,Dairy,2,63.78,79.73,159.46,Yes,4,Cash,One Time,2023-04-18,2023-06-18,61
+2024-04-01,CID0689,Customer 689,New York,Meat,2,3.26,4.08,8.16,No,4,Credit Card,One Time,2023-06-24,2023-08-26,63
+2023-09-16,CID0690,Customer 690,Philadelphia,Dairy,4,31.82,39.78,159.12,No,4,Credit Card,Weekly,2023-03-22,2023-03-23,1
+2023-07-08,CID0691,Customer 691,Houston,Vegetables,8,67.05,83.808,628.56,No,3,Cash,Weekly,2023-05-04,2023-08-05,93
+2023-08-17,CID0693,Customer 693,Philadelphia,Bakery,13,59.07,73.84,959.92,Yes,4,Credit Card,Weekly,2023-04-07,2023-07-19,103
+2023-03-23,CID0694,Customer 694,Phoenix,Dairy,12,77.98,97.47,1169.64,Yes,4,Credit Card,Quarterly,2023-11-02,2023-11-03,1
+2024-01-16,CID0695,Customer 695,Chicago,Dairy,13,4.55,5.69,73.97,Yes,1,Credit Card,Quarterly,2023-10-18,2023-11-21,34
+2023-01-09,CID0696,Customer 696,Chicago,Meat,14,54.7,68.38,957.32,Yes,2,Cash,Monthly,2023-02-06,2023-07-14,158
+2023-08-19,CID0697,Customer 697,New York,Fruits,27,41.43,51.788,1398.28,Yes,1,Debit Card,Monthly,2023-01-22,2023-09-04,225
+2023-05-13,CID0698,Customer 698,Houston,Dairy,6,46.5,58.13,348.78,No,3,Credit Card,One Time,2023-01-14,2023-03-29,74
+2024-01-20,CID0699,Customer 699,Houston,Packaged Foods,11,7.19,8.99,98.89,Yes,2,Cash,Weekly,2023-03-21,2024-08-01,499
+2023-07-05,CID0700,Customer 700,Phoenix,Dairy,2,3.82,4.78,9.56,No,2,Credit Card,One Time,2023-01-21,2023-01-22,1
+2023-11-23,CID0701,Customer 701,New York,Beverages,19,53.48,66.85,1270.15,Yes,1,Online Payment,Weekly,2023-11-13,2023-11-17,4
+2023-05-22,CID0702,Customer 702,Chicago,Vegetables,28,72.53,90.662,2583.87,Yes,2,Cash,Monthly,2023-01-13,2023-04-15,92
+2024-01-28,CID0703,Customer 703,Houston,Packaged Foods,5,62.65,78.31,391.55,Yes,4,Credit Card,Monthly,2023-12-12,2024-01-25,44
+2023-09-24,CID0704,Customer 704,New York,Packaged Foods,19,43.69,54.61,1037.59,Yes,2,Cash,Weekly,2023-11-02,2023-12-04,32
+2023-05-21,CID0708,Customer 708,San Antonio,Fruits,11,72.92,91.15,1002.65,Yes,1,Cash,One Time,2023-04-19,2023-05-18,29
+2023-08-14,CID0709,Customer 709,Houston,Vegetables,9,60.42,75.519,679.67,No,4,Online Payment,Monthly,2023-05-05,2023-06-13,39
+2023-09-02,CID0710,Customer 710,Chicago,Meat,15,56.86,71.08,1066.2,No,3,Online Payment,Weekly,2023-08-02,2023-08-02,0
+2024-01-01,CID0711,Customer 711,Los Angeles,Packaged Foods,9,75.93,94.91,854.19,No,4,Online Payment,One Time,2023-08-15,2023-11-26,103
+2023-05-27,CID0712,Customer 712,San Antonio,Meat,19,2.9,3.63,68.97,Yes,4,Credit Card,Weekly,2023-04-17,2023-05-19,32
+2023-05-20,CID0714,Customer 714,Phoenix,Dairy,3,26.69,33.36,100.08,Yes,1,Credit Card,One Time,2023-02-25,2023-12-03,281
+2023-06-13,CID0716,Customer 716,Houston,Dairy,14,21.62,27.03,378.42,Yes,3,Cash,Monthly,2023-01-30,2023-04-15,75
+2023-04-10,CID0717,Customer 717,New York,Fruits,28,63.91,79.882,2276.64,Yes,1,Online Payment,Quarterly,2023-06-26,2023-12-08,165
+2023-11-02,CID0718,Customer 718,Houston,Beverages,7,70.26,87.83,614.81,Yes,1,Cash,Weekly,2023-01-28,2023-06-02,125
+2023-12-03,CID0719,Customer 719,Chicago,Dairy,16,3.71,4.64,74.24,Yes,3,Debit Card,One Time,2023-01-15,2023-01-29,14
+2023-04-29,CID0721,Customer 721,Houston,Dairy,1,61.08,76.35,76.35,Yes,1,Credit Card,Quarterly,2023-03-28,2023-05-04,37
+2023-07-16,CID0722,Customer 722,Phoenix,Vegetables,4,36.61,45.76,183.04,Yes,3,Credit Card,One Time,2023-06-23,2023-08-07,45
+2023-12-28,CID0725,Customer 725,San Antonio,Vegetables,8,10.87,13.59,108.72,Yes,3,Credit Card,Monthly,2023-09-27,2023-12-13,77
+2023-04-20,CID0726,Customer 726,Phoenix,Bakery,17,68.62,85.78,1458.26,Yes,3,Credit Card,Monthly,2023-03-27,2023-07-04,99
+2023-02-02,CID0727,Customer 727,Phoenix,Fruits,5,46.2,57.75,288.75,Yes,4,Credit Card,Weekly,2023-01-20,2023-01-26,6
+2023-07-28,CID0729,Customer 729,Los Angeles,Fruits,2,27.77,34.713,69.43,Yes,3,Cash,Weekly,2023-02-26,2023-07-16,140
+2023-05-10,CID0731,Customer 731,Philadelphia,Fruits,7,14.86,18.58,130.06,Yes,4,Online Payment,Quarterly,2023-01-29,2023-10-08,252
+2023-08-27,CID0732,Customer 732,San Antonio,Bakery,18,35.06,43.83,788.94,No,4,Cash,Quarterly,2023-02-01,2023-05-19,107
+2023-01-08,CID0733,Customer 733,Los Angeles,Dairy,5,26.83,33.54,167.7,Yes,4,Debit Card,Quarterly,2023-02-22,2023-04-18,55
+2023-04-16,CID0735,Customer 735,Chicago,Fruits,7,59.22,74.03,518.21,Yes,1,Debit Card,Quarterly,2023-01-28,2023-02-28,31
+2024-01-30,CID0738,Customer 738,Chicago,Dairy,5,45.82,57.28,286.4,Yes,4,Online Payment,Monthly,2024-01-27,2024-01-30,3
+2023-12-23,CID0740,Customer 740,Los Angeles,Bakery,2,53.18,66.47,132.94,Yes,4,Credit Card,Weekly,2023-05-29,2023-11-25,180
+2023-11-01,CID0741,Customer 741,San Antonio,Meat,6,44.05,55.06,330.36,Yes,2,Cash,Monthly,2023-06-01,2023-08-01,61
+2024-01-27,CID0742,Customer 742,Houston,Meat,15,70.39,87.99,1319.85,Yes,4,Cash,Monthly,2023-03-03,2023-11-04,246
+2023-10-22,CID0743,Customer 743,New York,Dairy,10,54.18,67.72,677.2,No,2,Debit Card,One Time,2023-04-01,2023-10-19,201
+2023-04-01,CID0746,Customer 746,Houston,Vegetables,0,43.78,54.729,27.36,Yes,3,Online Payment,Quarterly,2023-04-01,2023-04-01,0
+2023-06-30,CID0747,Customer 747,New York,Meat,13,23.58,29.47,383.11,No,3,Cash,Weekly,2023-02-14,2023-03-24,38
+2023-07-19,CID0750,Customer 750,San Antonio,Meat,18,72.0,90.0,1620.0,Yes,3,Cash,One Time,2023-05-17,2023-12-07,204
+2023-03-08,CID0751,Customer 751,Philadelphia,Dairy,5,56.93,71.16,355.8,Yes,3,Debit Card,Monthly,2023-06-30,2023-07-07,7
+2023-03-10,CID0752,Customer 752,Phoenix,Dairy,13,75.02,93.77,1219.01,Yes,2,Credit Card,Quarterly,2023-04-28,2023-06-19,52
+2024-01-18,CID0753,Customer 753,Los Angeles,Fruits,2,43.58,54.477,108.95,Yes,4,Debit Card,Quarterly,2023-09-14,2023-12-14,91
+2024-12-01,CID0754,Customer 754,New York,Bakery,17,38.08,47.6,809.2,Yes,4,Cash,One Time,2023-10-14,2023-12-27,74
+2023-07-10,CID0755,Customer 755,Los Angeles,Fruits,2,4.64,5.796,8.69,Yes,4,Cash,Monthly,2023-01-07,2023-01-09,2
+2023-04-23,CID0757,Customer 757,Los Angeles,Fruits,6,42.07,52.587,289.23,No,4,Cash,Monthly,2023-02-20,2023-04-18,57
+2023-12-08,CID0761,Customer 761,Phoenix,Meat,18,52.22,65.27,1174.86,No,2,Online Payment,Monthly,2023-04-22,2023-06-19,58
+2023-06-09,CID0762,Customer 762,Philadelphia,Beverages,8,51.71,64.64,517.12,Yes,1,Debit Card,Monthly,2023-05-01,2023-07-02,62
+2023-07-19,CID0764,Customer 764,Phoenix,Packaged Foods,9,62.24,77.8,700.2,Yes,4,Credit Card,Quarterly,2023-01-20,2023-05-16,116
+2023-09-12,CID0766,Customer 766,Philadelphia,Fruits,10,58.16,72.7,727.0,Yes,4,Online Payment,Weekly,2023-10-22,2023-10-25,3
+2023-07-27,CID0768,Customer 768,New York,Bakery,13,71.73,89.66,1165.58,Yes,1,Online Payment,Weekly,2023-05-27,2023-09-07,103
+2024-06-01,CID0769,Customer 769,San Antonio,Beverages,17,67.84,84.8,1441.6,Yes,2,Credit Card,Monthly,2023-07-27,2023-10-13,78
+2023-03-26,CID0770,Customer 770,San Antonio,Beverages,9,25.49,31.86,286.74,No,4,Credit Card,Quarterly,2023-03-23,2023-03-23,0
+2023-08-28,CID0771,Customer 771,New York,Fruits,26,24.63,30.789,785.12,Yes,2,Online Payment,Weekly,2023-04-17,2023-07-27,101
+2023-01-10,CID0774,Customer 774,Houston,Meat,1,72.55,90.69,90.69,Yes,3,Debit Card,Monthly,2023-07-27,2023-08-23,27
+2023-01-14,CID0775,Customer 775,Philadelphia,Packaged Foods,2,13.45,16.81,33.62,Yes,4,Credit Card,Quarterly,2023-01-01,2023-10-01,273
+2023-10-31,CID0777,Customer 777,San Antonio,Vegetables,1,64.86,81.08,81.08,Yes,4,Debit Card,One Time,2023-03-29,2023-09-04,159
+2023-10-16,CID0778,Customer 778,Chicago,Fruits,10,75.82,94.77,947.7,Yes,4,Credit Card,Monthly,2023-08-24,2023-09-20,27
+2023-12-02,CID0781,Customer 781,Philadelphia,Packaged Foods,11,43.29,54.11,595.21,No,1,Debit Card,One Time,2023-01-28,2023-01-30,2
+2023-11-26,CID0782,Customer 782,San Antonio,Vegetables,2,5.22,6.53,13.06,Yes,3,Credit Card,Monthly,2023-02-24,2023-03-26,30
+2023-11-03,CID0784,Customer 784,Los Angeles,Fruits,4,49.8,62.244,248.98,No,4,Online Payment,Monthly,2023-02-25,2023-11-03,251
+2023-08-25,CID0785,Customer 785,Los Angeles,Packaged Foods,17,74.48,93.1,1582.7,Yes,2,Cash,Monthly,2023-05-31,2023-07-30,60
+2023-04-04,CID0786,Customer 786,Chicago,Vegetables,22,43.98,54.978,1237.01,Yes,3,Cash,Weekly,2023-02-21,2023-02-23,2
+2023-01-26,CID0787,Customer 787,San Antonio,Bakery,17,18.73,23.41,397.97,Yes,2,Cash,Quarterly,2023-01-17,2023-01-21,4
+2023-05-14,CID0788,Customer 788,Philadelphia,Beverages,13,3.94,4.93,64.09,Yes,4,Credit Card,Quarterly,2023-01-21,2023-03-14,52
+2023-06-17,CID0790,Customer 790,Phoenix,Packaged Foods,5,24.43,30.54,152.7,Yes,3,Cash,One Time,2023-03-21,2023-07-04,105
+2023-08-21,CID0792,Customer 792,Los Angeles,Packaged Foods,1,28.6,35.75,35.75,Yes,2,Online Payment,Quarterly,2023-03-28,2023-07-13,107
+2023-06-17,CID0793,Customer 793,Houston,Bakery,5,75.94,94.93,474.65,Yes,3,Credit Card,One Time,2023-02-26,2023-04-14,47
+2023-06-22,CID0794,Customer 794,Philadelphia,Packaged Foods,8,77.0,96.25,770.0,Yes,4,Cash,One Time,2023-03-27,2023-05-14,48
+2024-01-25,CID0795,Customer 795,Los Angeles,Fruits,6,44.84,56.052,364.34,Yes,2,Online Payment,One Time,2023-03-28,2023-12-11,258
+2023-07-14,CID0796,Customer 796,Houston,Dairy,8,74.32,92.9,743.2,Yes,4,Online Payment,Weekly,2023-01-20,2023-04-26,96
+2024-01-21,CID0798,Customer 798,Phoenix,Dairy,1,43.93,54.91,54.91,Yes,1,Credit Card,Weekly,2023-11-21,2023-11-26,5
+2023-04-08,CID0799,Customer 799,San Antonio,Packaged Foods,13,14.75,18.44,239.72,Yes,4,Cash,Monthly,2023-01-30,2023-07-23,174
+2023-10-05,CID0800,Customer 800,New York,Bakery,19,36.9,46.13,876.47,Yes,1,Debit Card,One Time,2023-02-19,2023-04-29,69
+2023-11-02,CID0801,Customer 801,San Antonio,Vegetables,3,45.05,56.31,168.93,No,4,Cash,Quarterly,2023-01-23,2023-01-27,4
+2023-08-29,CID0802,Customer 802,New York,Packaged Foods,17,69.17,86.46,1469.82,Yes,4,Cash,One Time,2023-03-31,2023-06-28,89
+2023-10-01,CID0803,Customer 803,Chicago,Beverages,5,38.71,48.39,241.95,Yes,1,Credit Card,Monthly,2023-03-01,2023-04-01,31
+2024-01-19,CID0804,Customer 804,Phoenix,Meat,8,71.86,89.82,718.56,Yes,3,Online Payment,Monthly,2023-01-05,2023-07-31,207
+2023-04-10,CID0805,Customer 805,Houston,Packaged Foods,14,54.08,67.6,946.4,Yes,1,Online Payment,One Time,2023-02-22,2023-09-07,197
+2023-04-25,CID0808,Customer 808,San Antonio,Dairy,15,42.37,52.96,794.4,Yes,2,Credit Card,Weekly,2023-01-26,2023-11-02,280
+2023-11-30,CID0811,Customer 811,New York,Fruits,28,9.97,12.463,355.2,Yes,4,Debit Card,Weekly,2023-08-02,2023-09-02,31
+2023-01-21,CID0812,Customer 812,New York,Beverages,19,51.07,63.84,1212.96,Yes,4,Cash,Quarterly,2023-06-01,2023-06-01,0
+2024-01-22,CID0813,Customer 813,Philadelphia,Packaged Foods,11,40.06,50.07,550.77,Yes,4,Cash,One Time,2023-11-18,2023-12-26,38
+2023-01-16,CID0814,Customer 814,Phoenix,Dairy,5,32.77,40.96,204.8,Yes,3,Cash,Monthly,2023-01-16,2023-01-16,0
+2023-07-05,CID0815,Customer 815,Philadelphia,Meat,5,76.26,95.33,476.65,Yes,4,Online Payment,One Time,2023-01-03,2023-04-24,111
+2023-04-13,CID0816,Customer 816,Los Angeles,Meat,8,41.99,52.49,419.92,No,2,Debit Card,Weekly,2023-07-04,2023-11-04,123
+2023-11-01,CID0817,Customer 817,Houston,Bakery,10,17.84,22.3,223.0,Yes,4,Cash,Quarterly,2023-10-01,2023-11-01,31
+2023-11-15,CID0818,Customer 818,Phoenix,Vegetables,6,36.94,46.17,277.02,Yes,4,Online Payment,One Time,2023-10-24,2023-10-31,7
+2023-03-20,CID0819,Customer 819,Phoenix,Dairy,15,73.58,91.98,1379.7,Yes,2,Debit Card,One Time,2023-02-27,2023-06-03,96
+2023-03-05,CID0820,Customer 820,Phoenix,Bakery,16,14.42,18.02,288.32,No,3,Debit Card,Weekly,2023-03-29,2023-04-27,29
+2023-09-12,CID0823,Customer 823,Philadelphia,Packaged Foods,8,1.53,1.91,15.28,Yes,4,Online Payment,Weekly,2023-11-18,2023-11-26,8
+2023-02-28,CID0824,Customer 824,Phoenix,Packaged Foods,9,66.42,83.02,747.18,Yes,2,Cash,Weekly,2023-01-21,2023-02-02,12
+2023-10-16,CID0825,Customer 825,Chicago,Meat,2,58.68,73.35,146.7,Yes,2,Online Payment,Weekly,2023-03-19,2023-09-20,185
+2023-04-22,CID0826,Customer 826,Houston,Packaged Foods,15,28.66,35.83,537.45,Yes,1,Debit Card,Weekly,2023-02-26,2023-04-15,48
+2023-08-27,CID0827,Customer 827,Phoenix,Packaged Foods,18,55.98,69.98,1259.64,Yes,4,Cash,Weekly,2023-01-18,2023-02-15,28
+2023-12-05,CID0829,Customer 829,Chicago,Meat,17,76.25,95.31,1620.27,Yes,4,Credit Card,Weekly,2023-04-24,2023-07-05,72
+2024-01-28,CID0830,Customer 830,Chicago,Bakery,4,77.38,96.72,386.88,Yes,1,Credit Card,Monthly,2023-11-20,2023-11-22,2
+2023-08-07,CID0831,Customer 831,Houston,Beverages,4,31.66,39.58,158.32,Yes,1,Debit Card,One Time,2023-03-19,2023-04-18,30
+2023-07-11,CID0833,Customer 833,Los Angeles,Bakery,9,61.94,77.42,696.78,Yes,4,Online Payment,Quarterly,2023-10-30,2023-10-31,1
+2023-07-11,CID0834,Customer 834,San Antonio,Vegetables,9,25.07,31.34,282.06,Yes,1,Debit Card,Weekly,2023-01-29,2023-03-21,51
+2024-01-18,CID0835,Customer 835,New York,Fruits,27,20.76,25.949,700.62,Yes,3,Cash,One Time,2023-06-30,2023-11-29,152
+2024-03-01,CID0836,Customer 836,New York,Bakery,10,36.87,46.09,460.9,Yes,3,Debit Card,Monthly,2023-09-17,2023-09-21,4
+2023-02-25,CID0840,Customer 840,New York,Vegetables,2,68.47,85.59,171.18,Yes,3,Debit Card,Weekly,2023-01-29,2023-05-02,93
+2023-10-24,CID0841,Customer 841,Phoenix,Packaged Foods,13,48.4,60.5,786.5,No,1,Online Payment,Weekly,2023-01-20,2023-11-02,286
+2023-01-14,CID0842,Customer 842,Philadelphia,Dairy,16,66.9,83.62,1337.92,Yes,4,Debit Card,Weekly,2023-01-01,2023-07-01,181
+2023-09-06,CID0843,Customer 843,Philadelphia,Vegetables,2,62.84,78.55,157.1,Yes,4,Cash,Weekly,2023-05-04,2023-05-31,27
+2023-10-22,CID0844,Customer 844,Chicago,Vegetables,16,33.45,41.811,689.88,No,3,Cash,Weekly,2023-05-27,2023-07-25,59
+2023-12-13,CID0845,Customer 845,San Antonio,Beverages,10,44.34,55.42,554.2,Yes,3,Credit Card,Weekly,2023-09-02,2023-12-11,100
+2023-12-07,CID0846,Customer 846,New York,Dairy,15,64.46,80.57,1208.55,Yes,4,Cash,Monthly,2023-06-15,2023-06-21,6
+2023-07-23,CID0847,Customer 847,Chicago,Packaged Foods,17,4.06,5.08,86.36,Yes,4,Credit Card,Quarterly,2023-01-24,2023-07-02,159
+2024-02-01,CID0848,Customer 848,Houston,Bakery,8,64.72,80.9,647.2,Yes,4,Debit Card,Monthly,2023-11-11,2023-11-19,8
+2023-08-02,CID0850,Customer 850,Philadelphia,Vegetables,9,41.37,51.71,465.39,No,3,Cash,Weekly,2023-02-02,2023-04-02,59
+2023-10-31,CID0851,Customer 851,Houston,Dairy,8,64.74,80.92,647.36,Yes,4,Cash,Monthly,2023-07-16,2023-08-14,29
+2023-11-18,CID0853,Customer 853,Phoenix,Packaged Foods,18,19.97,24.96,449.28,Yes,3,Debit Card,Quarterly,2023-10-25,2023-11-17,23
+2023-02-22,CID0855,Customer 855,Houston,Meat,19,71.62,89.52,1700.88,Yes,3,Debit Card,Quarterly,2023-02-20,2023-02-21,1
+2023-12-23,CID0856,Customer 856,Houston,Bakery,14,0.43,0.54,7.56,Yes,3,Online Payment,Weekly,2023-01-22,2023-11-13,295
+2024-01-31,CID0857,Customer 857,Los Angeles,Beverages,17,72.15,90.19,1533.23,Yes,3,Debit Card,One Time,2023-08-19,2024-01-19,153
+2023-03-03,CID0861,Customer 861,Houston,Bakery,12,39.78,49.72,596.64,Yes,2,Online Payment,Weekly,2023-01-21,2023-01-30,9
+2023-10-17,CID0862,Customer 862,Houston,Meat,9,41.22,51.52,463.68,Yes,2,Credit Card,One Time,2023-01-09,2023-10-13,277
+2023-01-22,CID0863,Customer 863,Phoenix,Fruits,15,38.73,48.41,726.15,Yes,4,Online Payment,Monthly,2023-01-17,2023-01-21,4
+2023-09-30,CID0865,Customer 865,Houston,Packaged Foods,13,7.62,9.53,123.89,Yes,2,Debit Card,One Time,2023-01-02,2023-05-17,135
+2023-05-12,CID0867,Customer 867,Philadelphia,Vegetables,14,4.99,6.24,87.36,Yes,4,Debit Card,Quarterly,2023-02-22,2023-12-07,288
+2023-09-07,CID0868,Customer 868,San Antonio,Beverages,8,35.77,44.71,357.68,Yes,4,Debit Card,Weekly,2023-03-29,2023-05-04,36
+2023-09-17,CID0870,Customer 870,New York,Packaged Foods,7,49.91,62.39,436.73,Yes,1,Cash,One Time,2023-09-16,2023-09-16,0
+2023-11-28,CID0871,Customer 871,New York,Packaged Foods,12,79.4,99.25,1191.0,Yes,4,Online Payment,Weekly,2023-11-27,2023-11-28,1
+2023-06-24,CID0872,Customer 872,Phoenix,Meat,11,31.15,38.94,428.34,No,3,Online Payment,Monthly,2023-02-14,2023-06-20,126
+2023-07-01,CID0873,Customer 873,Houston,Bakery,11,46.08,57.6,633.6,No,4,Credit Card,Weekly,2023-01-01,2023-01-01,0
+2023-08-09,CID0875,Customer 875,Houston,Beverages,18,67.84,84.8,1526.4,Yes,3,Cash,Monthly,2023-01-07,2023-08-18,223
+2023-02-24,CID0876,Customer 876,Phoenix,Fruits,2,72.22,90.27,180.54,Yes,3,Online Payment,Weekly,2023-01-29,2023-02-23,25
+2023-10-08,CID0877,Customer 877,Phoenix,Dairy,15,70.24,87.8,1317.0,Yes,3,Cash,Monthly,2023-04-23,2023-06-29,67
+2023-08-24,CID0880,Customer 880,Phoenix,Beverages,19,67.25,84.06,1597.14,Yes,3,Credit Card,Quarterly,2023-06-06,2023-07-29,53
+2023-12-29,CID0881,Customer 881,Philadelphia,Vegetables,12,60.24,75.3,903.6,Yes,3,Cash,Monthly,2023-03-23,2023-10-18,209
+2023-03-20,CID0882,Customer 882,Los Angeles,Meat,13,18.61,23.26,302.38,Yes,3,Credit Card,Weekly,2023-02-16,2023-02-25,9
+2023-11-08,CID0883,Customer 883,Chicago,Vegetables,16,84.17,105.215,1736.05,No,4,Cash,Monthly,2023-06-04,2023-06-21,17
+2023-09-25,CID0886,Customer 886,New York,Fruits,4,20.13,25.168,113.26,Yes,4,Credit Card,One Time,2023-07-29,2023-09-15,48
+2023-11-30,CID0887,Customer 887,Los Angeles,Fruits,10,31.26,39.078,371.24,No,4,Online Payment,Monthly,2023-06-23,2023-07-11,18
+2023-05-19,CID0888,Customer 888,Los Angeles,Bakery,7,57.65,72.06,504.42,No,3,Debit Card,Monthly,2023-01-14,2023-03-15,60
+2023-12-11,CID0889,Customer 889,Philadelphia,Beverages,12,45.24,56.55,678.6,Yes,3,Debit Card,Weekly,2023-06-21,2023-08-21,61
+2023-03-10,CID0890,Customer 890,Los Angeles,Packaged Foods,15,34.43,43.04,645.6,Yes,4,Debit Card,Monthly,2023-03-02,2023-08-09,160
+2023-05-09,CID0891,Customer 891,Chicago,Fruits,5,26.38,32.97,164.85,Yes,3,Online Payment,One Time,2023-03-26,2023-05-22,57
+2023-08-27,CID0892,Customer 892,Phoenix,Packaged Foods,15,67.24,84.05,1260.75,Yes,4,Online Payment,Quarterly,2023-01-25,2023-11-04,283
+2023-12-08,CID0893,Customer 893,Phoenix,Fruits,8,11.85,14.81,118.48,Yes,4,Cash,Quarterly,2023-05-23,2023-10-06,136
+2024-10-01,CID0894,Customer 894,San Antonio,Fruits,10,34.64,43.3,433.0,Yes,3,Debit Card,One Time,2023-12-14,2024-08-01,231
+2023-10-31,CID0895,Customer 895,New York,Meat,16,72.34,90.42,1446.72,Yes,2,Debit Card,Monthly,2023-07-17,2023-09-14,59
+2023-05-18,CID0896,Customer 896,Philadelphia,Meat,8,67.73,84.66,677.28,Yes,3,Debit Card,Monthly,2023-03-14,2023-03-21,7
+2023-06-05,CID0898,Customer 898,Los Angeles,Vegetables,12,61.14,76.43,917.16,No,3,Debit Card,Weekly,2023-03-04,2023-04-29,56
+2023-08-19,CID0901,Customer 901,Chicago,Bakery,1,43.74,54.68,54.68,Yes,3,Credit Card,One Time,2023-03-27,2023-09-08,165
+2024-01-20,CID0903,Customer 903,Los Angeles,Meat,8,20.72,25.9,207.2,Yes,4,Cash,Quarterly,2023-10-26,2023-12-14,49
+2023-08-26,CID0904,Customer 904,San Antonio,Beverages,3,23.94,29.92,89.76,Yes,4,Debit Card,Monthly,2023-06-19,2023-07-20,31
+2023-10-19,CID0905,Customer 905,New York,Packaged Foods,10,47.66,59.58,595.8,No,2,Credit Card,One Time,2023-03-14,2023-05-18,65
+2023-09-11,CID0906,Customer 906,Philadelphia,Packaged Foods,2,3.01,3.76,7.52,Yes,3,Cash,Weekly,2023-06-29,2023-08-20,52
+2023-09-12,CID0907,Customer 907,Chicago,Beverages,11,51.03,63.79,701.69,Yes,3,Cash,Quarterly,2023-08-06,2023-08-31,25
+2023-07-14,CID0908,Customer 908,Chicago,Dairy,10,29.4,36.75,367.5,No,3,Online Payment,One Time,2023-06-17,2023-07-07,20
+2023-06-22,CID0909,Customer 909,New York,Beverages,14,23.9,29.88,418.32,Yes,3,Cash,One Time,2023-06-19,2023-06-19,0
+2023-11-09,CID0911,Customer 911,New York,Vegetables,2,37.02,46.27,92.54,Yes,2,Cash,One Time,2023-03-02,2023-07-09,129
+2023-06-16,CID0912,Customer 912,Los Angeles,Fruits,4,7.17,8.964,40.34,Yes,3,Cash,One Time,2023-02-06,2023-07-06,150
+2023-04-04,CID0913,Customer 913,New York,Packaged Foods,16,66.21,82.76,1324.16,Yes,1,Debit Card,Quarterly,2023-01-04,2023-01-04,0
+2023-01-07,CID0916,Customer 916,New York,Dairy,4,62.0,77.5,310.0,Yes,4,Debit Card,Monthly,2023-03-21,2023-04-14,24
+2023-05-13,CID0917,Customer 917,Phoenix,Meat,10,28.46,35.58,355.8,Yes,2,Credit Card,Weekly,2023-07-04,2023-10-04,92
+2023-06-24,CID0918,Customer 918,San Antonio,Bakery,12,66.06,82.57,990.84,Yes,1,Debit Card,Quarterly,2023-06-14,2023-06-18,4
+2023-05-24,CID0919,Customer 919,Philadelphia,Packaged Foods,17,41.45,51.81,880.77,Yes,2,Cash,Monthly,2023-03-26,2023-04-19,24
+2023-02-11,CID0920,Customer 920,Houston,Beverages,14,37.28,46.6,652.4,No,3,Debit Card,Monthly,2023-07-03,2023-08-26,54
+2023-12-26,CID0921,Customer 921,New York,Bakery,14,4.02,5.02,70.28,Yes,2,Debit Card,Weekly,2023-10-12,2023-11-12,31
+2023-05-22,CID0922,Customer 922,Phoenix,Dairy,2,23.49,29.36,58.72,Yes,3,Online Payment,Weekly,2023-05-15,2023-05-16,1
+2023-12-10,CID0923,Customer 923,San Antonio,Bakery,11,74.51,93.14,1024.54,No,2,Cash,One Time,2023-02-17,2023-06-04,107
+2023-06-01,CID0924,Customer 924,Phoenix,Beverages,16,31.59,39.49,631.84,Yes,4,Debit Card,Monthly,2023-06-01,2023-06-01,0
+2023-02-13,CID0927,Customer 927,Phoenix,Vegetables,19,47.4,59.25,1125.75,Yes,4,Credit Card,Monthly,2023-01-24,2023-03-02,37
+2023-04-05,CID0928,Customer 928,San Antonio,Fruits,5,5.28,6.6,33.0,Yes,2,Debit Card,Quarterly,2023-03-01,2023-10-02,215
+2024-04-01,CID0929,Customer 929,Phoenix,Vegetables,4,29.23,36.54,146.16,Yes,1,Online Payment,Monthly,2023-05-07,2023-08-07,92
+2023-07-28,CID0930,Customer 930,Phoenix,Fruits,15,57.96,72.45,1086.75,Yes,3,Cash,Weekly,2023-03-21,2023-05-14,54
+2023-08-09,CID0931,Customer 931,Phoenix,Fruits,4,16.37,20.46,81.84,Yes,3,Cash,One Time,2023-02-16,2023-05-04,77
+2023-12-10,CID0932,Customer 932,Los Angeles,Vegetables,10,16.61,20.76,207.6,No,4,Debit Card,Monthly,2023-04-20,2023-05-20,30
+2024-01-24,CID0933,Customer 933,Los Angeles,Dairy,3,1.2,1.5,4.5,Yes,2,Debit Card,Quarterly,2023-06-24,2024-01-01,191
+2023-04-05,CID0934,Customer 934,Chicago,Beverages,5,35.22,44.03,220.15,No,3,Debit Card,Weekly,2023-02-05,2023-03-05,28
+2023-12-20,CID0935,Customer 935,New York,Bakery,6,70.66,88.33,529.98,Yes,2,Cash,One Time,2023-06-09,2023-07-10,31
+2023-01-09,CID0936,Customer 936,Phoenix,Bakery,8,4.53,5.66,45.28,No,1,Cash,Quarterly,2023-02-19,2023-08-16,178
+2023-11-27,CID0937,Customer 937,Philadelphia,Beverages,7,15.62,19.52,136.64,Yes,4,Credit Card,Quarterly,2023-04-26,2023-09-27,154
+2023-08-18,CID0940,Customer 940,New York,Fruits,21,56.53,70.664,1483.94,Yes,3,Online Payment,Weekly,2023-01-20,2023-03-22,61
+2023-09-01,CID0941,Customer 941,Chicago,Fruits,4,33.51,41.89,167.56,Yes,2,Credit Card,Quarterly,2023-05-01,2023-09-01,123
+2023-07-27,CID0945,Customer 945,Philadelphia,Fruits,4,65.51,81.89,327.56,Yes,3,Debit Card,Monthly,2023-05-19,2023-07-17,59
+2023-06-06,CID0948,Customer 948,Los Angeles,Vegetables,5,10.38,12.97,64.85,Yes,1,Cash,Weekly,2023-03-28,2023-12-05,252
+2023-06-12,CID0949,Customer 949,Houston,Dairy,16,27.22,34.03,544.48,Yes,2,Online Payment,One Time,2023-11-13,2023-11-22,9
+2023-08-07,CID0951,Customer 951,San Antonio,Vegetables,2,32.7,40.87,81.74,Yes,2,Online Payment,Weekly,2023-02-06,2023-06-25,139
+2023-08-31,CID0952,Customer 952,Los Angeles,Beverages,18,17.95,22.44,403.92,Yes,4,Debit Card,Weekly,2023-07-04,2023-08-16,43
+2023-11-10,CID0953,Customer 953,Los Angeles,Fruits,10,54.99,68.733,652.96,Yes,1,Cash,Quarterly,2023-03-20,2023-07-25,127
+2023-09-29,CID0954,Customer 954,Los Angeles,Dairy,19,43.58,54.48,1035.12,Yes,3,Credit Card,One Time,2023-03-25,2023-07-22,119
+2023-06-26,CID0955,Customer 955,Philadelphia,Dairy,17,12.31,15.39,261.63,Yes,4,Online Payment,Quarterly,2023-02-16,2023-03-13,25
+2023-06-08,CID0956,Customer 956,Philadelphia,Beverages,14,30.7,38.38,537.32,Yes,2,Debit Card,One Time,2023-01-08,2023-06-08,151
+2024-01-17,CID0957,Customer 957,Chicago,Bakery,19,33.39,41.74,793.06,No,3,Credit Card,One Time,2023-12-21,2024-05-01,132
+2023-09-10,CID0958,Customer 958,Chicago,Bakery,13,60.41,75.51,981.63,Yes,4,Cash,Monthly,2023-03-26,2023-06-10,76
+2023-06-19,CID0959,Customer 959,Los Angeles,Packaged Foods,12,2.05,2.56,30.72,Yes,2,Credit Card,Weekly,2023-04-23,2023-06-15,53
+2023-12-26,CID0961,Customer 961,New York,Fruits,6,45.76,57.2,343.2,Yes,3,Credit Card,Weekly,2023-07-30,2023-09-20,52
+2023-08-21,CID0962,Customer 962,Philadelphia,Meat,19,21.8,27.25,517.75,Yes,2,Online Payment,One Time,2023-04-04,2023-07-07,94
+2023-05-19,CID0963,Customer 963,Houston,Beverages,16,50.42,63.03,1008.48,Yes,3,Debit Card,Weekly,2023-02-03,2023-11-04,274
+2023-06-06,CID0964,Customer 964,Phoenix,Bakery,13,38.76,48.45,629.85,Yes,2,Online Payment,Monthly,2023-04-24,2023-05-20,26
+2023-09-05,CID0965,Customer 965,Philadelphia,Vegetables,4,29.19,36.49,145.96,Yes,4,Online Payment,One Time,2023-03-14,2023-03-16,2
+2024-05-01,CID0968,Customer 968,New York,Dairy,18,10.74,13.43,241.74,Yes,4,Cash,One Time,2023-08-18,2023-10-13,56
+2023-09-04,CID0969,Customer 969,New York,Dairy,17,44.98,56.23,955.91,No,4,Online Payment,Monthly,2023-01-30,2023-02-17,18
+2023-11-06,CID0970,Customer 970,San Antonio,Meat,15,62.54,78.18,1172.7,Yes,3,Credit Card,Weekly,2023-05-17,2023-05-17,0
+2024-01-16,CID0972,Customer 972,San Antonio,Fruits,13,14.1,17.62,229.06,Yes,3,Online Payment,Weekly,2023-08-06,2023-10-27,82
+2023-02-10,CID0973,Customer 973,San Antonio,Dairy,1,77.81,97.26,97.26,Yes,1,Online Payment,Monthly,2023-08-29,2023-09-24,26
+2023-12-20,CID0975,Customer 975,Phoenix,Vegetables,6,13.06,16.32,97.92,No,3,Cash,Quarterly,2023-08-07,2023-08-16,9
+2023-05-04,CID0976,Customer 976,Philadelphia,Meat,4,14.74,18.43,73.72,No,1,Cash,Quarterly,2023-03-28,2023-03-31,3
+2023-09-04,CID0977,Customer 977,Los Angeles,Vegetables,16,8.22,10.27,164.32,Yes,1,Online Payment,Quarterly,2023-03-15,2023-03-25,10
+2023-04-21,CID0978,Customer 978,Chicago,Fruits,15,64.36,80.45,1206.75,Yes,3,Online Payment,One Time,2023-02-26,2023-12-03,280
+2024-01-14,CID0979,Customer 979,Chicago,Packaged Foods,15,10.11,12.64,189.6,Yes,3,Credit Card,One Time,2023-08-25,2023-11-30,97
+2023-05-09,CID0980,Customer 980,San Antonio,Fruits,6,10.36,12.95,77.7,Yes,3,Online Payment,Monthly,2023-07-16,2023-08-21,36
+2023-05-22,CID0981,Customer 981,Philadelphia,Bakery,15,68.1,85.12,1276.8,Yes,3,Credit Card,Monthly,2023-03-14,2023-04-14,31
+2024-06-01,CID0982,Customer 982,Houston,Dairy,14,27.83,34.79,487.06,No,3,Online Payment,Quarterly,2023-07-15,2023-11-19,127
+2023-10-29,CID0983,Customer 983,Los Angeles,Dairy,11,2.86,3.57,39.27,Yes,3,Debit Card,Weekly,2023-09-15,2023-10-20,35
+2024-01-25,CID0984,Customer 984,Philadelphia,Vegetables,7,4.53,5.66,39.62,Yes,2,Debit Card,Quarterly,2023-09-28,2023-12-20,83
+2023-09-26,CID0985,Customer 985,Los Angeles,Meat,9,11.72,14.65,131.85,Yes,1,Credit Card,Monthly,2023-03-08,2023-09-15,191
+2023-02-11,CID0986,Customer 986,Los Angeles,Packaged Foods,16,17.38,21.73,347.68,No,3,Cash,Quarterly,2023-03-24,2023-06-18,86
+2023-05-25,CID0987,Customer 987,Los Angeles,Beverages,5,53.34,66.68,333.4,Yes,3,Debit Card,Monthly,2023-02-21,2023-03-25,32
+2023-02-21,CID0988,Customer 988,Philadelphia,Dairy,10,12.92,16.15,161.5,No,1,Credit Card,Quarterly,2023-02-21,2023-02-21,0
+2023-10-04,CID0989,Customer 989,San Antonio,Bakery,18,9.86,12.33,221.94,Yes,3,Online Payment,Weekly,2023-03-19,2023-08-04,138
+2023-01-06,CID0990,Customer 990,Chicago,Vegetables,4,67.4,84.249,379.12,Yes,1,Online Payment,Quarterly,2023-05-02,2023-10-05,156
+2023-04-27,CID0991,Customer 991,Chicago,Vegetables,20,59.2,73.997,1442.94,Yes,3,Credit Card,Weekly,2023-04-22,2023-04-25,3
+2023-04-06,CID0994,Customer 994,Houston,Meat,13,25.23,31.54,410.02,Yes,4,Credit Card,Weekly,2023-04-05,2023-05-26,51
+2023-08-01,CID0995,Customer 995,New York,Bakery,6,38.81,48.51,291.06,Yes,2,Debit Card,One Time,2023-06-01,2023-06-01,0
+2023-01-10,CID0997,Customer 997,New York,Bakery,13,31.22,39.03,507.39,Yes,3,Credit Card,One Time,2023-02-22,2023-08-25,184
+2023-06-03,CID0998,Customer 998,San Antonio,Bakery,19,72.56,90.7,1723.3,Yes,3,Online Payment,Monthly,2023-01-16,2023-02-19,34
+2023-05-21,CID0999,Customer 999,Houston,Fruits,19,1.68,2.1,39.9,Yes,3,Debit Card,One Time,2023-03-14,2023-05-15,62
+2023-01-24,CID1000,Customer 1000,Philadelphia,Vegetables,10,62.66,78.33,783.3,Yes,3,Online Payment,Monthly,2023-03-01,2023-08-01,153
